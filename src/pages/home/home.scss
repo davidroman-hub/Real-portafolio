@@ -80,7 +80,27 @@ font-size: 60px;
 animation: orange-neon 2s infinite alternate;
 
 } 
+ @media(max-width: 769px){
+    .header-text .orange-neon-title
+      {
+      font-size: 40px;
+    }
+    .header-text .description{
 
+        margin-top: 40px;
+        font-size: 15px;
+
+    }
+    .header-text .title{
+        font-size: 35px;
+    }
+    .header-text .icon{
+        font-size: 50px;
+    }
+    .btn-link{
+        font-size: 20px;
+    }
+}
 
 .header-text .description{
 
