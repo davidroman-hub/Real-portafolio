@@ -16,9 +16,9 @@ const Navbar = (props) => {
                 <div className="spacer"/>
                 <div className=" toolbar_navigation-item">
                     <ul>
-                        <li><NavLink exact to ="/Home" className="item" activeClassName="is-selected">Home</NavLink></li>
-                        <li><NavLink exact to ="/AboutUS" className="item" activeClassName="is-selected">R & P</NavLink></li>
-                        <li><NavLink exact to ="/ContactMe" className="item" activeClassName="is-selected">Contactanos</NavLink></li>
+                        <li><NavLink exact to ="/Home" className="item3" activeClassName="is-selected">Home</NavLink></li>
+                        <li><NavLink exact to ="/AboutUS" className="item3" activeClassName="is-selected">R & P</NavLink></li>
+                        <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contactanos</NavLink></li>
                     </ul>
                 </div>
 
