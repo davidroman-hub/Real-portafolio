@@ -17,7 +17,7 @@ const Navbar = (props) => {
                 <div className=" toolbar_navigation-item">
                     <ul>
                         <li><NavLink exact to ="/Home" className="item3" activeClassName="is-selected">Home</NavLink></li>
-                        <li><NavLink exact to ="/AboutUS" className="item3" activeClassName="is-selected">About me</NavLink></li>
+                        <li><NavLink exact to ="/AboutMe" className="item3" activeClassName="is-selected">About me</NavLink></li>
                         <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contact me</NavLink></li>
                     </ul>
                 </div>

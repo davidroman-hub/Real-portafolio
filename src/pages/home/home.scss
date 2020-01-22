@@ -29,15 +29,15 @@ font-weight: 400;
 /////// Header ///////////
 
 .header-content{
-width: 100%;
-height: 100vh;
-//color: #fff;
-// background: #ccc;
-background-image: url(./img/bg-header-black-3.jpg);
-background-size: cover;
-background-position: center; 
-background-attachment: fixed; // we can move while the photo its static
-box-shadow: inset 0 0 100px 150px rgba(0,0,0,.8);// shadow inside around the page
+    width: 100%;
+    height: 100vh;
+    //color: #fff;
+    // background: #ccc;
+    background-image: url(./img/bg-header-black-3.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; // we can move while the photo its static
+    box-shadow: inset 0 0 100px 150px rgba(0,0,0,.8);// shadow inside around the page
 
 
 ///position static photo///
