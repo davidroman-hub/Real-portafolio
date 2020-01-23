@@ -4,7 +4,7 @@ import {BrowserRouter, Route } from 'react-router-dom'
 //Pages
 import Home from './pages/home/home'
 import ContactMe from './pages/ContactMe/ContactMe'
-//import FooterV from './shared/Footer/Footer'
+//import FooterV from './pages/ContactMe/Footer/Footer'
 // import AboutMe from './pages/AboutMe/AboutMe'
 /// Navbar Components ///
 
@@ -51,7 +51,7 @@ render(){
         
         {/* <Route exact path='/AboutMe' component={AboutMe}></Route> */}
 
-      
+      {/* <FooterV></FooterV> */}
       </Fragment>
     </BrowserRouter>
   )

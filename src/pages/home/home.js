@@ -2,7 +2,7 @@ import React, {Component, Fragment } from 'react'
 import './home.scss'
 import Carousel from './carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import Footer from '../ContactMe/Footer/Footer'
 window.addEventListener('scroll', () => {
   const header = document.getElementById('header-content');
     header.style.opacity = '1'- window.pageYOffset / 650;})
@@ -63,9 +63,24 @@ class Home extends Component{
                         <p>
                             <Carousel></Carousel>
                         </p>
+                        <p className="molesto">
+                        oluptate commodo sint fugiat enim consequat sunt exercitation qui amet.
+                            Sunt dolore incididunt ullamco ad magna. Sint tempor pariatur nostrud
+                            pariatur aliquip adipisicing esse occaecat. Et velit ad esse mollit
+                            laborum dolor excepteur ipsum esse sunt magna dolore fugiat et. 
+                            Eu veniam ullamco ipsum ut labore sint culpa sit consequat sit
+                            dolor nisi exercitation dolor. Consectetur excepteur nulla irure
+                            exercitation. Aliqua sit laborum pariatur dolore velit. 
+                        </p>
+                        <p className="spacer">
+
+                        </p>
+                        {/* <p className="footer-nav">
+                            <Footer></Footer>
+                        </p> */}
                     </section>
                 </main>
-                               
+          
             </Fragment>
          )
     }

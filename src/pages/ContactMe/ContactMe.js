@@ -87,9 +87,11 @@ function ContactMe() {
                 </form>
                 <h3>{status}</h3>         
             </div>
-            <div>
-                <FooterV/>
-            </div>            
+            <div className="spacer">
+                
+            </div>
+            <FooterV></FooterV>
+                      
 </Fragment>
         );
 
