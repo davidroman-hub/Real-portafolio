@@ -1,0 +1,13 @@
+.carousel{
+
+     height: 400px;
+     position: absolute;
+     z-index: 250;
+      
+   }
+   
+   @media(max-width:769px) {
+    .carousel{
+     height: 249px;
+    }
+}

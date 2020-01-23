@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
-import "./carousel.scss"
+import "./carousel.css"
 
 export default () => (
 
