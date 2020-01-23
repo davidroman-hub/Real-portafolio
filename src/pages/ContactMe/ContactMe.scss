@@ -9,10 +9,11 @@
     font-family: 'Open Sans' , sans-serif;
     font-size: 16px;
    // background: grey;
-   background-image: url('./images/bg.jpg');
+  // background-image: url('./images/bg.jpg');
    padding-left: 10px;
    padding-right: 10px;
    border-radius: 10px;
+   
 }
 
 input[type=text], input[type=email],textarea,select{
@@ -23,6 +24,7 @@ input[type=text], input[type=email],textarea,select{
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 14px;
+    background-color: grey;
     
 
 }
@@ -54,6 +56,7 @@ input[type=text], input[type=email],textarea,select{
         transform: translate(-50%, -50%); //centar
         border: 3px solid white;
         padding: 15px 30px;
+        font-family: 'Open Sans', sans-serif;
        
         // @media(max-width: 569px){
         //     font-size: 13px;
@@ -69,6 +72,17 @@ input[type=text], input[type=email],textarea,select{
         
     }
 
+    .info{
+        //color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Pacifico', cursive ;
+        padding: 30px;
+        color:#d79e5b ;
+        font-weight: .5px;
+    }
+
 
 .Contact-me-logo img {
     display: flex;
@@ -78,6 +92,30 @@ input[type=text], input[type=email],textarea,select{
     justify-content: center;
 
     
+}
+
+.font-figures{
+    // color: white;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // height: 50px;
+    // //width: 50px;// los decentralizo
+    color: #d79e5b;
+    width: auto;
+    float: left;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  
+}
+.font-figures i{
+    width: 400px;
 }
 
 }

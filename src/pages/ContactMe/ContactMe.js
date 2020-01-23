@@ -63,8 +63,21 @@ function ContactMe() {
                 <div className="central-text">Contact Me</div>
             </div>
            
+           <div className="info">
+                Get in touch with me!
+           </div>
+
+           <div className="font-figures">
+                <i class="fas fa-map-pin">Adress</i>
+                <i class="far fa-envelope-open">Email</i>
+                <i class="fab fa-whatsapp">Phone</i>
+
+            </div> 
+            
+
+
             <div className="ContactMe">
-                <h3> Contact me </h3>
+                
             {/* <div className="Contact-me-logo">
                 <h3> Contact Me</h3>
                     <NavLink exact to ="/home">
@@ -75,17 +88,17 @@ function ContactMe() {
                 <form className="form-content" onSubmit={handleSubmit} action="/thank-you/">
                     <p>
                         <label>
-                            Your Name: <input type="text" name="name" value={name} onChange={handleChange}/>
+                           <input placeholder="Your name:" type="text" name="name" value={name} onChange={handleChange}/>
                         </label>
                     </p>
                     <p>
                         <label>
-                            Your Email: <input type="email" name="email" value={email} onChange={handleChange}/>
+                           <input  placeholder="Your Email:" type="email" name="email" value={email} onChange={handleChange}/>
                         </label>
                     </p>
                     <p>
                         <label>
-                            Message : <textarea name="message" value={message} onChange={handleChange}/>
+                          <textarea placeholder="Message:" name="message" value={message} onChange={handleChange}/>
                         </label> 
                     </p>
                         <div {...getRootProps()}>
