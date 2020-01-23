@@ -121,12 +121,11 @@
                       
 // </Fragment>
 
-
 import React, {useState, useCallback} from 'react';
 import {useDropzone} from 'react-dropzone'
-import './ContactMe.scss'
 
-function ContactMe() {
+
+function App() {
   const [name,setName] = useState('');
   const [status,setStatus] = useState('');
   const [email,setEmail] = useState('');
@@ -155,8 +154,8 @@ function ContactMe() {
       // headers: { "Content-Type": 'multipart/form-data; boundary=random' },
       body: encode(data)
     })
-      .then(() => setStatus("Gracias por tu mensaje!!"))
-      .catch(error => setStatus("No se ha enviado tu mensaje!"));
+      .then(() => setStatus("Form Submission Successful!!"))
+      .catch(error => setStatus("Form Submission Failed!"));
 
     e.preventDefault();
   };
@@ -175,33 +174,33 @@ function ContactMe() {
   }
 
   return (
-    <div className="ContactMe">
+    <div className="App">
     <form onSubmit={handleSubmit} action="/thank-you/">
           <p>
             <label>
-              Tu Nombre: <input type="text" name="name" value={name} onChange={handleChange} />
+              Your Name: <input type="text" name="name" value={name} onChange={handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Tu Email: <input type="email" name="email" value={email} onChange={handleChange} />
+              Your Email: <input type="email" name="email" value={email} onChange={handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Mensaje: <textarea name="message" value={message} onChange={handleChange} />
+              Message: <textarea name="message" value={message} onChange={handleChange} />
             </label>
           </p>
           <div {...getRootProps()}>
             <input {...getInputProps()} />
             {
               isDragActive ?
-                <p>Haz click aqui para agregar algun archivo ...</p> :
-                <p className='files'>click aqui para adjuntar una foto</p>
+                <p>Drop the files here ...</p> :
+                <p>Drag 'n' drop some files here, or click to select files</p>
             }
           </div>
           <p>
-            <button type="submit">Envialo!</button>
+            <button type="submit">Send</button>
           </p>
         </form>
         <h3>{status}</h3>
@@ -209,4 +208,4 @@ function ContactMe() {
   );
 }
 
-export default ContactMe
+export default App;
