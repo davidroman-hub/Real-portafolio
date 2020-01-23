@@ -1,11 +1,9 @@
 import React, {useState, useCallback, Fragment} from 'react'
 import {useDropzone} from 'react-dropzone'
 import FooterV from './Footer/Footer'
-import Logo from './logo.png'
-import angel from './miami.jpg'
 import miami from'./miami2.jpg'
 import './ContactMe.scss'
-import { NavLink } from 'react-router-dom'
+
 
 function ContactMe() {
     const [name,setName] = useState('');
@@ -69,7 +67,7 @@ function ContactMe() {
 
            <div className="font-figures">
                 <i class="fas fa-map-pin">Adress</i>
-                <i class="far fa-envelope-open">Email</i>
+                <i classname='mailes' class="far fa-envelope-open">Email</i>
                 <i class="fab fa-whatsapp">Phone</i>
 
             </div> 
