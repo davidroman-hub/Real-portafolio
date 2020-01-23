@@ -5,34 +5,11 @@ import miami from'./miami2.jpg'
 import './ContactMe.scss'
 
 
- //       return(
-//             <Fragment>
-//             <div className="header-up">
-//                 <img alt="header" src={miami}/>
-//                 <div className="central-text">Contact Me</div>
-//             </div>
-           
-//            <div className="info">
-//                 Get in touch with me!
-//            </div>
 
-//            <div className="font-figures">
-//                 <i class="fas fa-map-pin">Adress</i>
-//                 <i classname='mailes' class="far fa-envelope-open">Email</i>
-//                 <i class="fab fa-whatsapp">Phone</i>
-
-//             </div> 
-            
 
 
 //             <div className="ContactMe">
-                
-//             {/* <div className="Contact-me-logo">
-//                 <h3> Contact Me</h3>
-//                     <NavLink exact to ="/home">
-//                         <img alt="logo"  src={Logo}/>
-//                     </NavLink>
-//                 </div> */}
+              
                 
 //                 <form className="form-content" onSubmit={handleSubmit} action="/thank-you/">
 //                     <p>
@@ -67,8 +44,7 @@ import './ContactMe.scss'
 //             </div>
 //             <div className="spacer">
                 
-//             </div>
-//             <FooterV></FooterV>
+//            
                       
 // </Fragment>
 
@@ -139,7 +115,7 @@ function ContactMe() {
 
              </div> 
     <div className="ContactMe">
-    <form onSubmit={handleSubmit} action="/thank-you/">
+    <form className="form-content" onSubmit={handleSubmit} action="/thank-you/">
           <p>
             <label>
               <input type="text" placeholder="Your Name" name="name" value={name} onChange={handleChange} />
@@ -160,7 +136,7 @@ function ContactMe() {
             {
               isDragActive ?
                 <p>Drop the files here ...</p> :
-                <p>Drag 'n' drop some files here, or click to select files</p>
+                <p> Click here to select files</p>
             }
           </div>
           <p>
@@ -169,6 +145,8 @@ function ContactMe() {
         </form>
         <h3>{status}</h3>
     </div>
+    
+    <FooterV/>
     </Fragment>
   );
 }
