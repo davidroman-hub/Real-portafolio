@@ -122,6 +122,22 @@ function ContactMe() {
   }
 
   return (
+      <Fragment>
+          <div className="header-up">
+                 <img alt="header" src={miami}/>
+                 <div className="central-text">Contact Me</div>
+             </div>
+           
+            <div className="info">
+                 Get in touch with me!
+            </div>
+
+            <div className="font-figures">
+                 <i class="fas fa-map-pin">Adress</i>
+                 <i classname='mailes' class="far fa-envelope-open">Email</i>
+                 <i class="fab fa-whatsapp">Phone</i>
+
+             </div> 
     <div className="ContactMe">
     <form onSubmit={handleSubmit} action="/thank-you/">
           <p>
@@ -153,6 +169,7 @@ function ContactMe() {
         </form>
         <h3>{status}</h3>
     </div>
+    </Fragment>
   );
 }
 
