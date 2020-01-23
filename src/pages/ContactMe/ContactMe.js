@@ -122,7 +122,7 @@ function ContactMe() {
   }
 
   return (
-    <div className="App">
+    <div className="ContactMe">
     <form onSubmit={handleSubmit} action="/thank-you/">
           <p>
             <label>
