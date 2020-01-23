@@ -11,7 +11,7 @@ return(
 <nav className = { drawerClasses.join(' ')}>
     <ul>
       <li><NavLink exact to ="/Home" className="item2" activeClassName="is-selected">Home</NavLink></li>
-      <li><NavLink exact to ="/AboutMe" className="item2" activeClassName="is-selected">About Me</NavLink></li>
+      {/* <li><NavLink exact to ="/AboutMe" className="item2" activeClassName="is-selected">About Me</NavLink></li> */}
       <li><NavLink exact to ="/ContactMe" className="item2" activeClassName="is-selected">Contact Me</NavLink></li>
 
     </ul>

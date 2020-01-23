@@ -9,7 +9,7 @@ class AboutMe extends Component{
         return(
             <Fragment>
                 <Carousel></Carousel>
-                
+            
                 <div className="sec1">
                     {/* <img alt="logoP" src={logo} */}
                 </div>

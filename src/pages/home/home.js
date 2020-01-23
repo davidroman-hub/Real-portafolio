@@ -1,6 +1,6 @@
 import React, {Component, Fragment } from 'react'
 import './home.scss'
-
+import Carousel from '../AboutMe/carousel'
 
 window.addEventListener('scroll', () => {
   const header = document.getElementById('header-content');
@@ -57,6 +57,10 @@ class Home extends Component{
                             Eu veniam ullamco ipsum ut labore sint culpa sit consequat sit
                             dolor nisi exercitation dolor. Consectetur excepteur nulla irure
                             exercitation. Aliqua sit laborum pariatur dolore velit. 
+                        </p>
+
+                        <p>
+                            <Carousel></Carousel>
                         </p>
                     </section>
                 </main>
