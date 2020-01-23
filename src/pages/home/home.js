@@ -2,7 +2,7 @@ import React, {Component, Fragment } from 'react'
 import './home.scss'
 import Carousel from './carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Footer from '../ContactMe/Footer/Footer'
+//import Footer from '../ContactMe/Footer/Footer'
 window.addEventListener('scroll', () => {
   const header = document.getElementById('header-content');
     header.style.opacity = '1'- window.pageYOffset / 650;})
