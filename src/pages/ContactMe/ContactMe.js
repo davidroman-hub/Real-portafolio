@@ -178,17 +178,17 @@ function App() {
     <form onSubmit={handleSubmit} action="/thank-you/">
           <p>
             <label>
-              Your Name: <input type="text" name="name" value={name} onChange={handleChange} />
+              <input type="text" placeholder="Your Name" name="name" value={name} onChange={handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Your Email: <input type="email" name="email" value={email} onChange={handleChange} />
+              <input type="email" placeholder="Your Email" name="email" value={email} onChange={handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Message: <textarea name="message" value={message} onChange={handleChange} />
+         <textarea name="message" placeholder="Your Message" value={message} onChange={handleChange} />
             </label>
           </p>
           <div {...getRootProps()}>
