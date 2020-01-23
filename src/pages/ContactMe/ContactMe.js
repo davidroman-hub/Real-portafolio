@@ -1,58 +1,9 @@
-// import React, {useState, useCallback, Fragment} from 'react'
-// import {useDropzone} from 'react-dropzone'
-// import FooterV from './Footer/Footer'
-// import miami from'./miami2.jpg'
-// import './ContactMe.scss'
+import React, {useState, useCallback, Fragment} from 'react'
+import {useDropzone} from 'react-dropzone'
+import FooterV from './Footer/Footer'
+import miami from'./miami2.jpg'
+import './ContactMe.scss'
 
-
-// function ContactMe() {
-//     const [name,setName] = useState('');
-//     const [status,setStatus] = useState('');
-//     const [email,setEmail] = useState('');
-//     const [message,setMessage] = useState('');
-//     const [file, setFile] = useState({});
-
-//     const onDrop = useCallback(acceptedFiles => {
-//         console.log(acceptedFiles)
-//         setFile(acceptedFiles[0])
-//     },[])
-
-//     const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
-
-//     const encode = (data) => { 
-//         const formData = new FormData();
-//         Object.keys(data).forEach((k)=> {
-//             formData.append(k,data[k])
-//         });
-//         return formData
-//     }
-
-//     const handleSubmit = e => {
-//         const data = { "form-name": "contact", name, email, message, file}
-        
-//         fetch('/',{
-//             method:"POST",
-//             body: encode(data)
-//         })
-
-//         .then(()=> setStatus("Gracias por tu mensaje"))
-//         .catch( error => setStatus("no se ha enviado tu mensaje"));
-//         e.preventDefault();
-   
-//     };
-//         const handleChange = e => { 
-//             const {name, value} = e.target
-//             if (name === "name") {
-//                 return setName(value)
-//             }
-//             if (name === "email"){
-//                 return setEmail(value)
-//             }
-//             if (name === "message"){
-//                 return setMessage(value)
-//             }
-
-//         }
 
  //       return(
 //             <Fragment>
@@ -121,9 +72,6 @@
                       
 // </Fragment>
 
-import React, {useState, useCallback} from 'react';
-import {useDropzone} from 'react-dropzone'
-
 
 function App() {
   const [name,setName] = useState('');
@@ -188,7 +136,7 @@ function App() {
           </p>
           <p>
             <label>
-         <textarea name="message" placeholder="Your Message" value={message} onChange={handleChange} />
+         <textarea name="message" placeholder="Your message" value={message} onChange={handleChange} />
             </label>
           </p>
           <div {...getRootProps()}>
