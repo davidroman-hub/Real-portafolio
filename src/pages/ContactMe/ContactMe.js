@@ -1,5 +1,6 @@
-import React, {useState, useCallback} from 'react'
+import React, {useState, useCallback, Fragment} from 'react'
 import {useDropzone} from 'react-dropzone'
+import FooterV from './Footer/Footer'
 import './ContactMe.scss'
 
 function ContactMe() {
@@ -52,6 +53,7 @@ function ContactMe() {
         }
 
         return(
+            <Fragment>
             <div className="ContactMe">
                 <h3> Contact Me</h3>
                 <form className="form-content" onSubmit={handleSubmit} action="/thank-you/">
@@ -83,9 +85,14 @@ function ContactMe() {
                             <button type="submit">Send it!</button>
                         </p>
                 </form>
-                <h3>{status}</h3>
+                <h3>{status}</h3>         
             </div>
+            <div>
+                <FooterV/>
+            </div>            
+</Fragment>
         );
+
 }
 
 

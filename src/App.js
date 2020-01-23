@@ -4,6 +4,7 @@ import {BrowserRouter, Route } from 'react-router-dom'
 //Pages
 import Home from './pages/home/home'
 import ContactMe from './pages/ContactMe/ContactMe'
+//import FooterV from './shared/Footer/Footer'
 // import AboutMe from './pages/AboutMe/AboutMe'
 /// Navbar Components ///
 
@@ -47,6 +48,7 @@ render(){
         <Route exact path='/' component={Home}></Route>
         <Route exact path='/Home' component={Home}></Route>
         <Route exact path='/ContactMe' component={ContactMe}></Route>
+        
         {/* <Route exact path='/AboutMe' component={AboutMe}></Route> */}
 
       

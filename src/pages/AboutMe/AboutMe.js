@@ -1,6 +1,6 @@
 import  React, { Component, Fragment} from 'react';
 import './AboutMe.scss'
-import Carousel from "./carousel"
+import Carousel from "../home/carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
