@@ -73,7 +73,7 @@ import './ContactMe.scss'
 // </Fragment>
 
 
-function App() {
+function ContactMe() {
   const [name,setName] = useState('');
   const [status,setStatus] = useState('');
   const [email,setEmail] = useState('');
@@ -136,7 +136,7 @@ function App() {
           </p>
           <p>
             <label>
-         <textarea name="message" placeholder="Your message" value={message} onChange={handleChange} />
+         <textarea name="message" placeholder="Your messages" value={message} onChange={handleChange} />
             </label>
           </p>
           <div {...getRootProps()}>
@@ -156,4 +156,4 @@ function App() {
   );
 }
 
-export default App;
+export default ContactMe;
