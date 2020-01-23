@@ -52,11 +52,18 @@ input[type=text], input[type=email],textarea,select{
         top: 30%;
         left: 50%; 
         transform: translate(-50%, -50%); //centar
-        border: 2px solid white;
+        border: 3px solid white;
         padding: 15px 30px;
        
+        // @media(max-width: 569px){
+        //     font-size: 13px;
+        //     top: 50%;
+        // left: 50%;
+        // }
         @media(max-width: 769px){
             font-size: 16px;
+            top: 50%;
+        left: 50%;
         }
 
         

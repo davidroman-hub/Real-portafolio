@@ -3,6 +3,7 @@ import {useDropzone} from 'react-dropzone'
 import FooterV from './Footer/Footer'
 import Logo from './logo.png'
 import angel from './miami.jpg'
+import miami from'./miami2.jpg'
 import './ContactMe.scss'
 import { NavLink } from 'react-router-dom'
 
@@ -58,7 +59,7 @@ function ContactMe() {
         return(
             <Fragment>
             <div className="header-up">
-                <img alt="header" src={angel}/>
+                <img alt="header" src={miami}/>
                 <div className="central-text">Contact Me</div>
             </div>
            
