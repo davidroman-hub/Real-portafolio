@@ -5,11 +5,11 @@ function FooterV() {
     return (
         <footer>
             <div className = 'social'>
-                <a href='https://www.instagram.com/elmorenito_gamer/?hl=es-la' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.instagram.com/david_roman666/?hl=es-la' target='_blank' rel='noopener noreferrer'>
                     <i className=" fa fa-instagram"/>
                 </a>
 
-                <a href='https://www.facebook.com/Morenito-GAMER-459373204604942' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.facebook.com/david.romanaguirre.1' target='_blank' rel='noopener noreferrer'>
                     <i className=" fa fa-facebook"/>
                 </a>
 

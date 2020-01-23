@@ -8,19 +8,69 @@
     margin: 0 auto;// center
     font-family: 'Open Sans' , sans-serif;
     font-size: 16px;
-    background: grey;
+   // background: grey;
+   background-image: url('./images/bg.jpg');
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 10px;
 }
 
 input[type=text], input[type=email],textarea,select{
     width: 100%;// input size
     padding: 12px;// height between
-    border: 1px solid red;
+   // border: 1px solid red;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 14px;
     
 
+}
+
+.header-up img{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    padding:6px
+}
+    .header-up{
+        position: relative;//centrat text
+        display: inline-block;
+        text-align: center;
+        ;
+    }
+
+    .central-text{
+        color: blanchedalmond;
+        // display: flex;
+        // justify-content: center;
+        position: absolute;
+        top: 30%;
+        left: 50%; 
+        transform: translate(-50%, -50%); //centar
+        border: 2px solid white;
+        padding: 15px 30px;
+       
+        @media(max-width: 769px){
+            font-size: 16px;
+        }
+
+        
+    }
+
+
+.Contact-me-logo img {
+    display: flex;
+    height: 180px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+
+    
 }
 
 }
