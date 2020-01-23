@@ -1,6 +1,7 @@
 import React, {Component, Fragment } from 'react'
 import './home.scss'
-import Carousel from '../AboutMe/carousel'
+import Carousel from './carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 window.addEventListener('scroll', () => {
   const header = document.getElementById('header-content');
