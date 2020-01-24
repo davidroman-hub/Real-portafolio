@@ -83,9 +83,15 @@ class Home extends Component{
                         <p>
                             <Carousel></Carousel>
                         </p>
-                        <p className="spacer">
+                       
+                            
+                        <div className="info">
+                        Thanks for watching! And i hope we can work together!
+                        </div>
 
-                        </p>
+
+
+                   
                         {/* <p className="footer-nav">
                             <Footer></Footer>
                         </p> */}
