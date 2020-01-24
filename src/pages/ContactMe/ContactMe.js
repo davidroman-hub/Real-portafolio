@@ -79,14 +79,14 @@ function ContactMe() {
                      
                       </i>
                  </div>
-                 <div >
+                 
                     <i class="fas fa-phone">
                       <p>Phone</p>
                       <p className="text-p">+33 7 87 42 20 67</p>
                       <br/>
                      
                       </i>
-                 </div>
+                 
                  {/* <i class="fab fa-whatsapp-square">
                       <p>Phone</p>
                       <p className="text-p">+33 7 87 42 20 67 (only calls- France)</p>
