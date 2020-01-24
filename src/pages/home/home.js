@@ -70,13 +70,11 @@ class Home extends Component{
                         </div>
 
 
-
-
                         <h2 className=" h2-subtitle">
-                        Proyects
+                        Projects
                         </h2>
 
-                        <p> In this moment i'm working in differents Proyects as a Freelancer. I'm working with a clothes seller in Mexico City. 
+                        <p> In this moment i'm working in differents Projects as a Freelancer. I'm working with a clothes seller in Mexico City. 
                             in a Ecommerce Aplication.
                             </p>
 
