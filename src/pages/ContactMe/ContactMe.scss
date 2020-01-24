@@ -14,6 +14,8 @@
    padding-right: 10px;
    border-radius: 10px;
    
+   
+   
 }
 
 input[type=text], input[type=email],textarea,select{
@@ -105,17 +107,44 @@ input[type=text], input[type=email],textarea,select{
     width: auto;
     float: left;
     width: 100%;
-    height: 60px;
+    height:200px;
+   // border-right: 1px solid #d79e5b;
     display: flex;
     flex-direction: initial;
     align-items: center;
     justify-content: center;
     text-align: center;
+   
+
+    .mailes{
+        border-right: 2px solid #d79e5b ;
+        border-left: 2px solid #d79e5b;
+    }
     
   
 }
 .font-figures i{
-    width: 400px;
+    width: 300px; // separar
+    
+    @media(max-width: 769px){
+        width: 140px;
+        font-size: 16px;
+        top: 50%;
+    left: 50%;
+    }
+
+    
+}
+.font-figures p {
+    font-family: "Open Sans", sans-serif; // letter styles
+    font-size: 10px;
+    
+}
+.text-p {
+
+    color: white;
+    font-size: 8px;
+   
 }
 
 }

@@ -109,11 +109,31 @@ function ContactMe() {
             </div>
 
             <div className="font-figures">
-                 <i class="fas fa-map-pin">Adress</i>
-                 <i classname='mailes' class="far fa-envelope-open">Email</i>
-                 <i class="fab fa-whatsapp">Phone</i>
+                 <i class="fas fa-map-marker-alt">
+                   <p>Adress</p>
+                      <p className="text-p">France - Paris Malakoff</p>
+                      <br></br>
+                      <p className="text-p">Mexico City</p>
+                  </i>
+                 <div className="mailes">
+                    <i class="fas fa-envelope-open">
+                      <p>Email</p>
+                      <p className="text-p">Jobroman83 @ gmail.com</p>
+                      <br></br>
+                      <p className="text-p">Black_maranello @ hotmail.com</p>
+                      </i>
+                 </div>
+                 <i class="fab fa-whatsapp-square">
+                      <p>Phone</p>
+                      <p className="text-p">+33 7 87 42 20 67 (only calls- France)</p>
+                      <p className="text-p">+52 55 65 60 67 69 (WhatsApp)</p>
+                   </i>
 
              </div> 
+
+             <div>
+               <h4> text random</h4>
+             </div>
     <div className="ContactMe">
     <form className="form-content" onSubmit={handleSubmit} action="/thank-you/">
           <p>
