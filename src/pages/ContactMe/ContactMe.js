@@ -66,7 +66,7 @@ function ContactMe() {
 
             <div className="font-figures">
                  <i class="fas fa-map-marker-alt">
-                   <p>Adress</p>
+                   <p>Address</p>
                       <p className="text-p">France - Paris Malakoff</p>
                       <br></br>
                      

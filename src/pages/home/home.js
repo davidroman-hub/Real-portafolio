@@ -106,7 +106,7 @@ class Home extends Component{
                        
                             
                         <div className="info">
-                        Thanks for watching! And i hope we can work together!
+                        Thanks for reading! And i hope we can work together!
                         </div>
 
 
