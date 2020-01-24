@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import {BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 //Pages
 import Home from './pages/home/home'
@@ -14,21 +14,23 @@ import Navbar from './shared/navbar/navbar'
 import './App.css';
 
 class App extends Component{
-//  State  //
+
+
+  //  State  //
   state = { 
     sideDrawerOpen:false 
   }
 
-  // /the function //
+  // the function //
 
   drawerToggleClickHandler = () => {
-    this.setState((prevState) => {return {
-      sideDrawerOpen: !prevState.sideDrawerOpen
+    this.setState((prevState) => {return{
+      sideDrawerOpen: !prevState.sideDrawerOpen 
     } });
   } ;
 
   backdropClickHandker = () => {
-    this.setState({sideDrawerOpen:false})
+    this.setState({ sideDrawerOpen:false })
   }
 
 render(){
