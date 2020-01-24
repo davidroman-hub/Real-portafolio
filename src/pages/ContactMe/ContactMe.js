@@ -110,11 +110,11 @@ function ContactMe() {
             </label>
           </p>
           <div {...getRootProps()}>
-            <input {...getInputProps()} />
+            <input  {...getInputProps()} />
             {
               isDragActive ?
                 <p>Drop the files here ...</p> :
-                <p> Click here to select files</p>
+                <p className="button-2"> Click here to select files</p>
             }
           </div>
           <p>
