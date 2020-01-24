@@ -5,50 +5,6 @@ import miami from'./miami2.jpg'
 import './ContactMe.scss'
 
 
-
-
-
-//             <div className="ContactMe">
-              
-                
-//                 <form className="form-content" onSubmit={handleSubmit} action="/thank-you/">
-//                     <p>
-//                         <label>
-//                            <input placeholder="Your name:" type="text" name="name" value={name} onChange={handleChange}/>
-//                         </label>
-//                     </p>
-//                     <p>
-//                         <label>
-//                            <input  placeholder="Your Email:" type="email" name="email" value={email} onChange={handleChange}/>
-//                         </label>
-//                     </p>
-//                     <p>
-//                         <label>
-//                           <textarea placeholder="Message:" name="message" value={message} onChange={handleChange}/>
-//                         </label> 
-//                     </p>
-//                         <div {...getRootProps()}>
-//                         <input {...getInputProps()}/>
-//                         {
-//                             isDragActive ? 
-//                             <p> Click here if you want add a File..</p> :
-//                             <p className="files" > Click here for add a Photo</p>
-
-//                         }
-//                         </div>
-//                         <p>
-//                             <button type="submit">Send it!</button>
-//                         </p>
-//                 </form>
-//                 <h3>{status}</h3>         
-//             </div>
-//             <div className="spacer">
-                
-//            
-                      
-// </Fragment>
-
-
 function ContactMe() {
   const [name,setName] = useState('');
   const [status,setStatus] = useState('');
@@ -131,9 +87,11 @@ function ContactMe() {
 
              </div> 
 
-             <div>
-               <h4> text random</h4>
-             </div>
+                  <div className="text-des">
+                          <h4>If you got any question  please send me a message it is very important to me</h4>
+                          <p>.</p>
+                  </div>
+             
     <div className="ContactMe">
     <form className="form-content" onSubmit={handleSubmit} action="/thank-you/">
           <p>
