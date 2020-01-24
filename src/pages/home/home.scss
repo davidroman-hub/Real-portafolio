@@ -293,6 +293,13 @@ border-bottom: 2px solid white;
 .Node img {
     //  height: 200px;
     //  width: 300px;
+
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+            
+                height: 120px;
+                width: 200px;
+        }
+
         }
  .Mongo img {
      height: 200px;
@@ -327,6 +334,11 @@ border-bottom: 2px solid white;
     justify-content: center;
     padding-top: 10px;
     border-radius: 100px;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+            
+        height: 160px;
+        width: 180px;
+}
 }
 
 .info2{
