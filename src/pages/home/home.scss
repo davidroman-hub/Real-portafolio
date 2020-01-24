@@ -25,6 +25,7 @@ margin-bottom: 30px;
 
 .regular-text{
 font-weight: 400;
+font-family:'Pacifico', cursive ; ;
 }
 
 /////// Header ///////////
@@ -162,14 +163,17 @@ main .h2-subtitle{
 margin-bottom: 50px;
 padding: 0;
 font-size: 40px;
-text-align: center;
+text-align: center;////
+font-family:'Pacifico', cursive ;
+color:#d79e5b ;
+
 }
 
-main .h2-subtitle, main .capital-letter{
-text-shadow: 0 0 15px rgba(255,255,255,.5),
+// main .h2-subtitle, main .capital-letter{
+// text-shadow: 0 0 15px rgba(255,255,255,.5),
 
-0 0 10px rgba(255,255,255,.5)
-}
+// 0 0 10px rgba(255,255,255,.5)
+// }
 
 main .capital-letter {
 font-size: 55px;
@@ -242,4 +246,100 @@ text-shadow: none;
 .footer-nav{
     margin:0;
     padding: 0;
+}
+
+.React,.Node, .Sass {
+   // font-size: 14px;
+}
+
+
+
+.Skills-icon{
+//     color: #d79e5b;
+//     width: auto;
+//     float: left;
+//     width: 100%;
+//     height:200px;
+//    // border-right: 1px solid #d79e5b;
+ //    display: flex;
+//     flex-direction: initial;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+border-top: 2px solid white;
+border-bottom: 2px solid white;    
+
+
+
+.React {
+   // border: 4px solid red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-radius: 100px;
+
+}
+
+.React img {
+    height: 200px;
+    width: 250px;
+    }
+.Node img {
+    //  height: 200px;
+    //  width: 300px;
+        }
+ .Mongo img {
+     height: 200px;
+     width: 200px;
+            }
+        
+.Node{
+    //border: 4px solid red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.Mongo{
+   // border: 4px solid red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    border-radius: 100px;
+}
+
+.Sass{
+   // border: 4px solid red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Pacifico', cursive ;
+    padding: 30px;
+    color:#d79e5b ;
+    font-weight: .5px;
+    font-size: 50px;
+
+}
+
+
 }

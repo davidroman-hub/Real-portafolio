@@ -1,8 +1,14 @@
 import React, {Component, Fragment } from 'react'
 import './home.scss'
-import Carousel from './carousel'
+// import Carousel from './carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import mongo from './img/mongo.png'
+import react from './img/react.png'
+import node from './img/node.png'
+import sass from './img/sass.png'
 //import Footer from '../ContactMe/Footer/Footer'
+
+
 window.addEventListener('scroll', () => {
   const header = document.getElementById('header-content');
     header.style.opacity = '1'- window.pageYOffset / 650;})
@@ -39,13 +45,32 @@ class Home extends Component{
                         </h2>
                         <p>
                           <span className="capital-letter">M</span>y name is David Roman A.  Im a developer Web and Aquaculture Engineer. 
-                          I finished my Formation about Fullstack JS   React, Node.js, Sass, Mongo DB, Express, etc..), in november of the 2019,
+                          I finished my Formation about Fullstack JS in november of the 2019,
                           at the Bootcamp called BEDU Tech, this Bootcamp it's located in Mexico City.
-                          
-                          At the present this Bootcamp it's very popular. I love to use React for my proyects it's my favorite language (This Web-Page is made with React),
-                          and also i can use Node.js and mongo DB for the Backend.
-                          I would like to find a job like front end developer because i like to make componnents and also i love to do the design for the Web-pages (it's my favorite thing). 
+                        
                         </p>
+                        <div className="Skills-icon">
+                        <div className=" info2">
+                        Skills
+                        </div>
+                        <p className='React'>
+                            
+                        <img alt='react' src={react}/>
+                        </p>
+                        <p className='Node'>
+                        <img alt='node' src={node}/>
+                        </p>
+                        <p className="Mongo">
+                          <img alt='mongo' src={mongo}/>
+                        </p>
+                        <p className='Sass'>
+                        <img alt='sass' src={sass}/>
+                        </p>
+
+                        </div>
+
+
+
 
                         <h2 className=" h2-subtitle">
                         Proyects
@@ -81,7 +106,7 @@ class Home extends Component{
                         </p>
 
                         <p>
-                            <Carousel></Carousel>
+                            {/* <Carousel></Carousel> */}
                         </p>
                        
                             

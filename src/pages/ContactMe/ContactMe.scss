@@ -137,7 +137,12 @@ input[type=text], input[type=email],textarea,select{
 }
 .font-figures p {
     font-family: "Open Sans", sans-serif; // letter styles
-    font-size: 10px;
+    font-size: 14px;
+    @media(max-width: 769px){
+  
+        font-size: 10px;
+   
+    }
     
 }
 .text-p {
@@ -159,9 +164,10 @@ input[type=text], input[type=email],textarea,select{
     align-items: center;
     justify-content: center;
     text-align: center;
-    text-transform: uppercase;
-    font-size:15px ;
+   //text-transform: uppercase;
+    font-size:22px ;
     padding-top: 20px;
+    font-family:'Pacifico', cursive ;
     //padding-bottom: 20px;
       
     @media(max-width: 769px){

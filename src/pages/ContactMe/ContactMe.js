@@ -69,26 +69,34 @@ function ContactMe() {
                    <p>Adress</p>
                       <p className="text-p">France - Paris Malakoff</p>
                       <br></br>
-                      <p className="text-p">Mexico City</p>
+                     
                   </i>
                  <div className="mailes">
                     <i class="fas fa-envelope-open">
                       <p>Email</p>
                       <p className="text-p">Jobroman83 @gmail.com</p>
                       <br/>
-                      <p className="text-p">Black_maranello @hotmail.com</p>
+                     
                       </i>
                  </div>
-                 <i class="fab fa-whatsapp-square">
+                 <div >
+                    <i class="fas fa-phone">
+                      <p>Phone</p>
+                      <p className="text-p">+33 7 87 42 20 67</p>
+                      <br/>
+                     
+                      </i>
+                 </div>
+                 {/* <i class="fab fa-whatsapp-square">
                       <p>Phone</p>
                       <p className="text-p">+33 7 87 42 20 67 (only calls- France)</p>
-                      <p className="text-p">+52 55 65 60 67 69 (WhatsApp)</p>
-                   </i>
+               
+                   </i> */}
 
              </div> 
 
                   <div className="text-des">
-                          <h4>If you got any question  please send me a message it is very important to me</h4>
+                          <h4> Connect With me!</h4>
                           <p>.</p>
                   </div>
              
@@ -124,7 +132,8 @@ function ContactMe() {
         <h3>{status}</h3>
     </div>
             <div className="info">
-                 Connect With me!
+                
+                 Let's Work Together!
             </div>
     <FooterV/>
     </Fragment>
