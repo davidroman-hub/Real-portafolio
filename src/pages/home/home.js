@@ -44,9 +44,9 @@ class Home extends Component{
                         About Me
                         </h2>
                         <p>
-                          <span className="capital-letter">M</span>y name is David Roman A.  Im a developer Web and Aquaculture Engineer. 
-                          I finished my Formation about Fullstack JS in november of the 2019,
-                          at the Bootcamp called BEDU Tech, this Bootcamp it's located in Mexico City.
+                          <span className="capital-letter">M</span>y name is David Roman A.  I'm a web developer  and Aquaculture Engineer. 
+                          I finished my Formation of Fullstack JS in november of the 2019,
+                          at the Bootcamp called BEDU Tech, is located in Mexico City.
                         
                         </p>
                         <div className="Skills-icon">
@@ -76,25 +76,22 @@ class Home extends Component{
                         Proyects
                         </h2>
 
-                        <p> In this moment im working in differents Proyects as a Freelancer. Im working with a clothes seller in Mexico City. 
-                            This proyect it's the most ambitious, it's about to made
-                            an Ecommerce Aplication, im using differents program languages, in fact im doing a MERN Aplication for made this possible.
-                            If you want to see my work i would like to you made a travel on my github. </p>
+                        <p> In this moment i'm working in differents Proyects as a Freelancer. I'm working with a clothes seller in Mexico City. 
+                            in a Ecommerce Aplication.
+                            </p>
 
-                        <p>Im working as well with a Professinal Contemporean Dancer in Mexico City, 
-                            i made her Portafolio using React and i provide the maintenance to the Web-Page,  
-                            in the future she would like to add another Features at the Web-page.
+                        <p>I'm working as well with a Professinal Contemporean Dancer in Mexico City, 
+                            i made her Portafolio using React and i provide the maintenance to the Web-Page.  
+                            
                         </p>
 
 
                         <h2 className=" h2-subtitle">
                         Why I wanted to be a Web developer ?
                         </h2>
-                            I love so much the technologies for sure, but also i love the fishes!! . In my entire life i was rodeaded about alot of fishes and i worked with them as well,
-                            that's why i wanted to be an Aquaculture Engineer, because i love the repoduction of them (fishes, crustaceans, oyster etc..) and the maintenance as well, but i was boring to always work for the
-                            water organism , i wanted to try to be something different, all my family work for the same (Fishes), i wanted to find my path as a developer web in another coutry far from Mexico.
-                            It is because of this that i started to study the path of the web developer, a new world for discover , new things new technologies, the opportunity of meet new people, and to work with them as well.
-                            it's a huge new world that i want to meet and discover.  
+                            I wanted to try to be something different, i wanted to find my path as a web developer in another coutry far from Mexico.
+                            It's because of this that i started to study the path of the web developer, a new world for discover , new things new technologies, the opportunity of meet new people, and to work with them as well.
+                            
                       
                         <h2 className=" h2-subtitle">
                         Hobbies
