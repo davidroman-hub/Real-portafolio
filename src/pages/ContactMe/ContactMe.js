@@ -34,7 +34,7 @@ function ContactMe() {
       // headers: { "Content-Type": 'multipart/form-data; boundary=random' },
       body: encode(data)
     })
-      .then(() => setStatus("Form Submission Successful!!"))
+      .then(() => setStatus("Thanks for the message, I will contact you!"))
       .catch(error => setStatus("Form Submission Failed!"));
 
     e.preventDefault();
@@ -74,9 +74,9 @@ function ContactMe() {
                  <div className="mailes">
                     <i class="fas fa-envelope-open">
                       <p>Email</p>
-                      <p className="text-p">Jobroman83 @ gmail.com</p>
-                      <br></br>
-                      <p className="text-p">Black_maranello @ hotmail.com</p>
+                      <p className="text-p">Jobroman83 @gmail.com</p>
+                      <br/>
+                      <p className="text-p">Black_maranello @hotmail.com</p>
                       </i>
                  </div>
                  <i class="fab fa-whatsapp-square">
