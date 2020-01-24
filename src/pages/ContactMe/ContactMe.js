@@ -123,7 +123,9 @@ function ContactMe() {
         </form>
         <h3>{status}</h3>
     </div>
-    
+            <div className="info">
+                 Connect With me!
+            </div>
     <FooterV/>
     </Fragment>
   );

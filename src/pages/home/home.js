@@ -3,9 +3,9 @@ import './home.scss'
 import Carousel from './carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 //import Footer from '../ContactMe/Footer/Footer'
-// window.addEventListener('scroll', () => {
-//   const header = document.getElementById('header-content');
-//     header.style.opacity = '1'- window.pageYOffset / 650;})
+window.addEventListener('scroll', () => {
+  const header = document.getElementById('header-content');
+    header.style.opacity = '1'- window.pageYOffset / 650;})
 
 
 
@@ -26,7 +26,7 @@ class Home extends Component{
                         <p className="description">
                             Welcome to my Home page!<br/>
                             All the information about me it is below the page<br/>
-                            it will be very funny work with you!.
+                            You can Click on "Git Hub" for see my works
                         </p>
                         <a href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer" className="btn-link regular-text">Git Hub</a>
 
@@ -35,42 +35,53 @@ class Home extends Component{
                  <main>
                     <section className="container">
                         <h2 className=" h2-subtitle">
-                        servicios
+                        About Me
                         </h2>
                         <p>
-                          <span className="capital-letter">P</span>ara despejar la cabeza sunt officia pariatur consequat laborum eiusmod fugiat veniam commodo.
-                           Sit laboris aliquip anim occaecat ipsum ex aliquip ipsum sit fugiat.
-                           Aute occaecat fugiat culpa culpa eu ut veniam reprehenderit in et Lorem
-                           Veniam occaecat qui do id non velit. Consectetur sit ullamco dolore labore elit
-                           aliquip anim eu irure dolor adipisicing. Sunt ad mollit quis laboris consectetur adipisicing
-                           proident excepteur aliquip elit incididunt culpa.</p>
+                          <span className="capital-letter">M</span>y name is David Roman A.  Im a developer Web and Aquaculture Engineer. 
+                          I finished my Formation about Fullstack JS   React, Node.js, Sass, Mongo DB, Express, etc..), in november of the 2019,
+                          at the Bootcamp called BEDU Tech, this Bootcamp it's located in Mexico City.
+                          
+                          At the present this Bootcamp it's very popular. I love to use React for my proyects it's my favorite language (This Web-Page is made with React),
+                          and also i can use Node.js and mongo DB for the Backend.
+                          I would like to find a job like front end developer because i like to make componnents and also i love to do the design for the Web-pages (it's my favorite thing). 
+                        </p>
 
-                        <p>Laborum cillum nisi id eiusmod est labore adipisicing elit et enim veniam Lorem dolor.
-                            Adipisicing dolore ut velit elit aliquip velit adipisicing cillum sunt proident culpa.
-                            Sint eiusmod eiusmod adipisicing anim amet anim. Excepteur nostrud aute laboris proident
-                            eu dolor commodo laboris deserunt duis duis adipisicing. Veniam aliqua ipsum proident aliqua
-                            ut est ad ad sunt. Nostrud qui sunt eu id officia sunt ullamco ullamco veniam.</p>
+                        <h2 className=" h2-subtitle">
+                        Proyects
+                        </h2>
 
-                        <p>Voluptate commodo sint fugiat enim consequat sunt exercitation qui amet.
-                            Sunt dolore incididunt ullamco ad magna. Sint tempor pariatur nostrud
-                            pariatur aliquip adipisicing esse occaecat. Et velit ad esse mollit
-                            laborum dolor excepteur ipsum esse sunt magna dolore fugiat et. 
-                            Eu veniam ullamco ipsum ut labore sint culpa sit consequat sit
-                            dolor nisi exercitation dolor. Consectetur excepteur nulla irure
-                            exercitation. Aliqua sit laborum pariatur dolore velit. 
+                        <p> In this moment im working in differents Proyects as a Freelancer. Im working with a clothes seller in Mexico City. 
+                            This proyect it's the most ambitious, it's about to made
+                            an Ecommerce Aplication, im using differents program languages, in fact im doing a MERN Aplication for made this possible.
+                            If you want to see my work i would like to you made a travel on my github. </p>
+
+                        <p>Im working as well with a Professinal Contemporean Dancer in Mexico City, 
+                            i made her Portafolio using React and i provide the maintenance to the Web-Page,  
+                            in the future she would like to add another Features at the Web-page.
+                        </p>
+
+
+                        <h2 className=" h2-subtitle">
+                        Why I wanted to be a Web developer ?
+                        </h2>
+                            I love so much the technologies for sure, but also i love the fishes!! . In my entire life i was rodeaded about alot of fishes and i worked with them as well,
+                            that's why i wanted to be an Aquaculture Engineer, because i love the repoduction of them (fishes, crustaceans, oyster etc..) and the maintenance as well, but i was boring to always work for the
+                            water organism , i wanted to try to be something different, all my family work for the same (Fishes), i wanted to find my path as a developer web in another coutry far from Mexico.
+                            It is because of this that i started to study the path of the web developer, a new world for discover , new things new technologies, the opportunity of meet new people, and to work with them as well.
+                            it's a huge new world that i want to meet and discover.  
+                      
+                        <h2 className=" h2-subtitle">
+                        Hobbies
+                        </h2>
+                        <p >
+                            My principal hobbie it's travel around the world, below are some photos of my travels. Right now im living in Paris France, i would like to meet another countries, first travel around europe , and after meet Asia
+                            and another beautiful places. I love to play videogames , actually i participated in videogames tournaments (call of duty, apex, fortnite ,etc..), i love to do that, in fact, 
+                            i have a Youtube Chanel about videogames and tournaments  and also a FaceBook fan page for the videogames. the links are on the footer. 
                         </p>
 
                         <p>
                             <Carousel></Carousel>
-                        </p>
-                        <p className="molesto">
-                        oluptate commodo sint fugiat enim consequat sunt exercitation qui amet.
-                            Sunt dolore incididunt ullamco ad magna. Sint tempor pariatur nostrud
-                            pariatur aliquip adipisicing esse occaecat. Et velit ad esse mollit
-                            laborum dolor excepteur ipsum esse sunt magna dolore fugiat et. 
-                            Eu veniam ullamco ipsum ut labore sint culpa sit consequat sit
-                            dolor nisi exercitation dolor. Consectetur excepteur nulla irure
-                            exercitation. Aliqua sit laborum pariatur dolore velit. 
                         </p>
                         <p className="spacer">
 
