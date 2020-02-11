@@ -1,6 +1,6 @@
 .side-drawer{
     height: 50vh;
-    background:#231306 ;
+    background:#282828 ;
     box-shadow: 1px 0px 7px rgb(0, 0, 0.5);
     position:absolute;
     top: 70px;
@@ -25,6 +25,7 @@
   }
  
   .side-drawer ul {
+    padding:50px;
    height:70%;
    list-style: none;
   display: flex;
