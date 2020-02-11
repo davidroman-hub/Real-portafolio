@@ -98,7 +98,7 @@ class Home extends Component{
                             I wanted to try to be something different, i wanted to find my path as a web developer in another coutry far from Mexico.
                             It's because of this that i started to study the path of the web developer, a new world to discover , new things, new technologies, 
                             the opportunity to meet new people, and to work with them as well.
-                            
+                          
                       
              
 
@@ -137,9 +137,9 @@ class Home extends Component{
                         <p className='H-icons'>
                             <img alt='star' src={congas}/>
                         </p>
-                        <p className='H-icons'>
+                         <p className='H-icons'>
                             <img alt='star' src={tecnologic}/>
-                        </p>
+                        </p> 
                         
 
                     </div>
