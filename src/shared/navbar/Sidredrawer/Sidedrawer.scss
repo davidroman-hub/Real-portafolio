@@ -1,6 +1,6 @@
 .side-drawer{
-    height: 100vh;
-    background:#0a0501 ;
+    height: 50vh;
+    background:#231306 ;
     box-shadow: 1px 0px 7px rgb(0, 0, 0.5);
     position:absolute;
     top: 70px;
@@ -11,7 +11,7 @@
     transform: translateX(-200%);/* la animacion de transform translatex*/
     transition: transform 0.3s ease-out;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 3px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.8);// shadow inside around the page
@@ -25,7 +25,7 @@
   }
  
   .side-drawer ul {
-   height:50%;
+   height:70%;
    list-style: none;
   display: flex;
   flex-direction: column;
