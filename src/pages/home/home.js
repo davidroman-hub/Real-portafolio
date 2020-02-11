@@ -6,6 +6,8 @@ import mongo from './img/mongo.png'
 import react from './img/react.png'
 import node from './img/node.png'
 import sass from './img/sass.png'
+import star from './img/star2.png'
+import ajolotl from './img/ajolotl.png'
 //import Footer from '../ContactMe/Footer/Footer'
 
 
@@ -32,7 +34,7 @@ class Home extends Component{
                         <p className="description">
                             Welcome to my Home page!<br/>
                             All the information about me it is below the page<br/>
-                            You can Click on "Git Hub" for see my works
+                            You can Click on "Git Hub" for see my work.
                         </p>
                         <a href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer" className="btn-link regular-text">Git Hub</a>
 
@@ -46,7 +48,7 @@ class Home extends Component{
                         <p>
                           <span className="capital-letter">M</span>y name is David Roman A.  I'm a web developer  and Aquaculture Engineer. 
                           I finished my Formation of Fullstack JS in november of the 2019,
-                          at the Bootcamp called BEDU Tech, is located in Mexico City.
+                          at the Bootcamp called BEDU Tech, it's located in Mexico City.
                         
                         </p>
                         <div className="Skills-icon">
@@ -88,17 +90,36 @@ class Home extends Component{
                         Why I wanted to be a Web developer ?
                         </h2>
                             I wanted to try to be something different, i wanted to find my path as a web developer in another coutry far from Mexico.
-                            It's because of this that i started to study the path of the web developer, a new world for discover , new things new technologies, the opportunity of meet new people, and to work with them as well.
+                            It's because of this that i started to study the path of the web developer, a new world for discover , new things, new technologies, the opportunity of meet new people, and to work with them as well.
                             
                       
-                        <h2 className=" h2-subtitle">
-                        Hobbies
+             
+
+
+                   
+                        {/* <p className="footer-nav">
+                            <Footer></Footer>
+                        </p> */}
+                    </section>
+                    
+                    <h2 className=" h2-subtitle">
+                        Interesting
                         </h2>
-                        <p >
+                        {/* <p >
                             My principal hobbie it's travel around the world, below are some photos of my travels. Right now im living in Paris France, i would like to meet another countries, first travel around europe , and after meet Asia
                             and another beautiful places. I love to play videogames , actually i participated in videogames tournaments (call of duty, apex, fortnite ,etc..), i love to do that, in fact, 
                             i have a Youtube Chanel about videogames and tournaments  and also a FaceBook fan page for the videogames. the links are on the footer. 
+                        </p> */}
+
+                    <div className="Hobbies-icon">
+                        <p className='Star'>
+                            <img alt='star' src={star}/>
                         </p>
+
+                        <p className='Ajolotl'>
+                            <img alt='ajolotl' src={ajolotl}/>
+                        </p>
+                    </div>
 
                         <p>
                             {/* <Carousel></Carousel> */}
@@ -111,11 +132,7 @@ class Home extends Component{
 
 
 
-                   
-                        {/* <p className="footer-nav">
-                            <Footer></Footer>
-                        </p> */}
-                    </section>
+
                 </main>
           
             </Fragment>

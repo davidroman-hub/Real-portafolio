@@ -74,7 +74,7 @@ function ContactMe() {
                  <div className="mailes">
                     <i class="fas fa-envelope-open">
                       <p>Email</p>
-                      <p className="text-p">Jobroman83 @gmail.com</p>
+                      <p className="text-p">Jobroman83@gmail.com</p>
                       <br/>
                      
                       </i>

@@ -291,8 +291,8 @@ border-bottom: 2px solid white;
     width: 250px;
     }
 .Node img {
-    //  height: 200px;
-    //  width: 300px;
+     height: 200px;
+     width: 300px;
 
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
             
@@ -351,6 +351,73 @@ border-bottom: 2px solid white;
     font-weight: .5px;
     font-size: 50px;
 
+}
+
+
+}
+
+
+.Hobbies-icon {
+    display: flex;
+flex-direction: row;
+//align-items: center;
+border-top: 2px solid white;
+border-bottom: 2px solid white;    
+
+    .Star  {
+        width: 200px;
+        height: 200px;
+        display: flex;
+       // justify-content: center;
+        padding-top: 15px;
+        border-radius: 100px;
+    }
+
+
+    
+.Star img {
+    width: 300px;
+    height: 200px;
+     
+    @media (min-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+            
+        
+}
+
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+            
+                height: 70px;
+                width: 140px;
+        }
+}
+
+
+.Ajolotl  {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    //margin-left: 100px;
+    
+   // justify-content: center;
+    //padding-top: 15px;
+   // border-radius: 100px;
+}
+
+
+
+.Ajolotl img {
+width: 200px;
+height: 200px;
+@media (min-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+     margin-left: 100px;       
+        
+}
+
+@media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+           
+            height: 90px;
+            width: 140px;
+    }
 }
 
 
