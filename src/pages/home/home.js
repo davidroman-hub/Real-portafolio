@@ -37,8 +37,8 @@ class Home extends Component{
                         </h1>
                         <p className="description">
                             Welcome to my Home!<br/>
-                            All the information about me it is below the page<br/>
-                            You can Click on "Git Hub" for see my work.
+                            All my info can be found scrolling down.<br/>
+                            You can Click on "Git Hub" to see all my work!
                         </p>
                         <a href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer" className="btn-link regular-text">Git Hub</a>
 
@@ -50,9 +50,8 @@ class Home extends Component{
                         About Me
                         </h2>
                         <p>
-                          <span className="capital-letter">M</span>y name is David Roman A.<br/> I'm a web developer and Aquaculture Engineer. 
-                          I finished my Formation of Fullstack JS in november of the 2019,
-                          at the Bootcamp called BEDU Tech, it's located in Mexico City.
+                          <span className="capital-letter">M</span>y name is David Roman Aguirre<br/> - I'm a web developer and Aquaculture Engineer. <br/>
+                          - I completed my JS Fullstack program from BEDU Tech (Mexico City) in November 2019.
                         
                         </p>
                         <div className="Skills-icon">
@@ -80,13 +79,15 @@ class Home extends Component{
                         Projects
                         </h2>
 
-                        <p> At this moment i'm working on differents Projects as a Freelancer. 
-                            
-                            I'm working with a clothes seller in Mexico City creating an Ecommerce Application using MERN App.
+                        <p> At this moment i'm engaged in multiple Projects as a Freelancer. 
+
+
+                           Some of my work includes creating Ecommerce applications, utilizing MERN App, 
+                           for a clothes retailer in mexico city.
                             </p>
 
-                        <p>I'm working as well with a Professinal Contemporean Dancer in Mexico City, 
-                            i made her Portafolio using React and i provide the maintenance to the Web-Page.  
+                        <p>Also, i'm working as well with a professinal Contemporary dancer instructor from Mexico City, 
+                            in order to provide a portfolio for her. I'm using React and currently maintain the web-page. 
                             
                         </p>
 
@@ -95,7 +96,8 @@ class Home extends Component{
                         Why I wanted to be a Web developer ?
                         </h2>
                             I wanted to try to be something different, i wanted to find my path as a web developer in another coutry far from Mexico.
-                            It's because of this that i started to study the path of the web developer, a new world for discover , new things, new technologies, the opportunity of meet new people, and to work with them as well.
+                            It's because of this that i started to study the path of the web developer, a new world to discover , new things, new technologies, 
+                            the opportunity to meet new people, and to work with them as well.
                             
                       
              
