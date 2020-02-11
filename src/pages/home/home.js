@@ -36,7 +36,7 @@ class Home extends Component{
                         <span className="orange-neon-title regular-text">Web developper</span>
                         </h1>
                         <p className="description">
-                            Welcome to my Home page!<br/>
+                            Welcome to my Home!<br/>
                             All the information about me it is below the page<br/>
                             You can Click on "Git Hub" for see my work.
                         </p>
@@ -50,7 +50,7 @@ class Home extends Component{
                         About Me
                         </h2>
                         <p>
-                          <span className="capital-letter">M</span>y name is David Roman A.  I'm a web developer  and Aquaculture Engineer. 
+                          <span className="capital-letter">M</span>y name is David Roman A.<br/> I'm a web developer and Aquaculture Engineer. 
                           I finished my Formation of Fullstack JS in november of the 2019,
                           at the Bootcamp called BEDU Tech, it's located in Mexico City.
                         
@@ -80,8 +80,9 @@ class Home extends Component{
                         Projects
                         </h2>
 
-                        <p> In this moment i'm working in differents Projects as a Freelancer. I'm working with a clothes seller in Mexico City. 
-                            in a Ecommerce Aplication.
+                        <p> At this moment i'm working on differents Projects as a Freelancer. 
+                            
+                            I'm working with a clothes seller in Mexico City creating an Ecommerce Application using MERN App.
                             </p>
 
                         <p>I'm working as well with a Professinal Contemporean Dancer in Mexico City, 
