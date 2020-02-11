@@ -6,8 +6,12 @@ import mongo from './img/mongo.png'
 import react from './img/react.png'
 import node from './img/node.png'
 import sass from './img/sass.png'
-import star from './img/star2.png'
 import ajolotl from './img/ajolotl.png'
+import gaming from './img/video.png'
+import exercice from './img/exercice.png'
+import travel from './img/travel.png'
+import congas from './img/congas.png'
+import tecnologic from './img/tecno.png'
 //import Footer from '../ContactMe/Footer/Footer'
 
 
@@ -103,7 +107,7 @@ class Home extends Component{
                     </section>
                     
                     <h2 className=" h2-subtitle">
-                        Interesting
+                        Interests
                         </h2>
                         {/* <p >
                             My principal hobbie it's travel around the world, below are some photos of my travels. Right now im living in Paris France, i would like to meet another countries, first travel around europe , and after meet Asia
@@ -112,13 +116,29 @@ class Home extends Component{
                         </p> */}
 
                     <div className="Hobbies-icon">
-                        <p className='Star'>
-                            <img alt='star' src={star}/>
-                        </p>
 
-                        <p className='Ajolotl'>
-                            <img alt='ajolotl' src={ajolotl}/>
+                
+                    <p className='H-icons'>
+                            <img alt='star' src={exercice}/>
+                        </p>    
+
+                        <p className='H-icons'>
+                            <img alt='star' src={travel}/>
                         </p>
+                        <p className='H-icons'>
+                            <img alt='star' src={gaming}/>
+                        </p>
+                        <p className='H-icons'>
+                            <img alt='star' src={ajolotl}/>
+                        </p>
+                        <p className='H-icons'>
+                            <img alt='star' src={congas}/>
+                        </p>
+                        <p className='H-icons'>
+                            <img alt='star' src={tecnologic}/>
+                        </p>
+                        
+
                     </div>
 
                         <p>

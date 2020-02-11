@@ -358,67 +358,21 @@ border-bottom: 2px solid white;
 
 
 .Hobbies-icon {
-    display: flex;
-flex-direction: row;
-//align-items: center;
+display: flex;
+//flex-direction: row;
+
+justify-content: center;
+flex-wrap: wrap;
 border-top: 2px solid white;
-border-bottom: 2px solid white;    
-
-    .Star  {
-        width: 200px;
-        height: 200px;
-        display: flex;
-       // justify-content: center;
-        padding-top: 15px;
-        border-radius: 100px;
-    }
-
-
-    
-.Star img {
-    width: 300px;
-    height: 200px;
-     
-    @media (min-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-            
-        
-}
-
-    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-            
-                height: 70px;
-                width: 140px;
-        }
-}
-
-
-.Ajolotl  {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    //margin-left: 100px;
-    
-   // justify-content: center;
-    //padding-top: 15px;
-   // border-radius: 100px;
-}
-
-
-
-.Ajolotl img {
-width: 200px;
-height: 200px;
-@media (min-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-     margin-left: 100px;       
-        
-}
+border-bottom: 2px solid white;
 
 @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-           
-            height: 90px;
-            width: 140px;
-    }
+    //flex-wrap: wrap; // <-- para acomodar los items en una lina o en varias (bajar iconos)
+   //flex-direction: column;
+    }    
 }
 
-
+.H-icons img{
+    width: 120px;
+    height: 120px;
 }
