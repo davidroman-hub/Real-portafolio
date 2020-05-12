@@ -48,7 +48,7 @@ const Navbar = (props) => {
                          smooth={true}
                          offset={-70}
                          duration={500}     
-                        >Section 1</Link></li>
+                        >About</Link></li>
                         {/* <li><NavLink exact to ="/AboutMe" className="item3" activeClassName="is-selected">About me</NavLink></li> */}
                         <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contact me</NavLink></li>
                         <li><NavLink exact to ="/new-home" className="item3" activeClassName="is-selected">New-home</NavLink></li>

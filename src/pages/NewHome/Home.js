@@ -44,7 +44,7 @@ const NewHome  = () => {
                     
                 </div>
                 <p className='text-after'>
-                      Freelance,independent, creative , adaptative, multi-Tasking & able to achieve my goals.
+                      Freelance, independent, creative , adaptative, multi-Tasking & able to achieve my goals.
                       <br/>
                       Detail & love to work as a Team.
                     </p>
@@ -58,69 +58,29 @@ const NewHome  = () => {
                     duration={500}         
                     className="botton btn btn-xl">WHAT I DO?</Link>
                </div>
-                <hr/>
-                          {/* banner Start*/}   
-                  <div className="banner-container">
-                    <hr/>
-                      <div className="card text-center  mr-5 ml-5 mb-5">
-                        <div className="card-body">
-                            <h4 className="card-title">El auténtico sabor Jarocho</h4>
-                          
-                            <p className="card-text">Traemos el sabor de la cocina Veracruzana a tu paladar, con las especialidades del
-                              Puerto de Veracruz, como: Vuelve a la vida, Tostadas de Pulpo, Arroz a la tumbada entre otros..
-                            </p>
-                            <hr/>
-                         
-                        </div>
-                      </div>
-                    </div>
-              
-                          {/* banner finished*/}       
-                          <br/>
-                          <br/>
-                          <hr/>
-                          <h1 className=" h2-subtitle">
-                       Qué es este nuevo concepto?
-                        </h1>
-                        <div className="About-container">
-                            <div className="about-concept">
-                             
-                            </div>
-                            <hr/>
-                            <div className="about-us-des">
-                              <br/>
-                              <span className="capital-letter">M</span>ar y Sol<br/> 
-                                no es solo una página ordinaria donde podrás ver nuestro Menu, es una plataforma entera, con la cual podrás regístrarte
-                                y ordenar productos desde la comodidad de tu hogar con entrega a domicilio en un radio de 5km. Podrás hacer reservaciones Vía telefónica.
-                                Te invitamos a que te registres para conocer las características de nuestra plataforma.
-                                <br />
-                                
-                              </div>                
-                        </div>
-                          
-                    <br/>
-                    <hr/>
-                    
-                      <h2 className='text-center'>Ubicación</h2>
-                      <p className='text-center'> Atzayacatl 79, Tlaxpana, Miguel Hidalgo, 11370 Ciudad de México, CDMX</p>
-                    <div className="Map-ps">
-                  
-                    </div>
-                    <br/>
-                    <p className="text-center">Para Reservaciones Vía telefonica </p>
-                    <p className="text-center">Teléfono de Contacto: 5555355280  <i class="fab fa-whatsapp"></i></p>
-                    
-                    <hr/>
-                    {/* {JSON.stringify(productsBySell)}
-                    <hr/>
-                    {JSON.stringify(productsBySell)}
-                    <hr/> */}
-                      <h2 className="mb-4 text-center">Lo Más vendido</h2>
-                       
-                
+                <hr/>          
               </section>
-        </main>    
-        <div id="header-content"/>
+        </main> 
+      
+        <div className="github-section text-center">
+          <br/>
+                      <h4 className="text-center">
+                        CHECK MY CODE ON GITHUB
+                        </h4>
+                        <p className="text-git">I have specialized mainly in MERN applications, 
+                          I invite you to visit my Github portfolio to see the process of each of my Rest API's and
+                           Applications I have created 
+                        </p>
+                     
+                        <i className="git-icon fab fa-github"></i>
+                        <br/>
+                        <a className="git-btn btn "  href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer">Github</a>
+                      
+              </div>
+     
+
+        
+        
     </Fragment>
     )
 }
