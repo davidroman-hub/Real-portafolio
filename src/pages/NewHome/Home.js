@@ -24,7 +24,7 @@ const NewHome  = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}         
-                    className="botton1 btn btn-primary btn-xl js-scroll-trigger">Read more</Link>
+                    className="botton1 btn btn-primary btn-xl js-scroll-trigger">READ MORE</Link>
             </div>
         
         </header>
@@ -32,23 +32,32 @@ const NewHome  = () => {
          <main>
             <section className="container" id='nombre' >
                 <hr/>
-                <h1 className=" h2-subtitle" id='about-us'>
+                <h2 className="h2-subtitle" id='about-us'>
                I GOT JUST WHAT YOU NEED
-                </h1>
+                </h2>
                 <div className="About-container">
-                    <div className="about-us">
-                     
+                    <div className="about-us text-center">
+                    Fullstack JS, Frontend & Backend Developer,
+                    Acuaculture Engineer & Web Designer. 
                     </div>
                     <hr/>
-                    <div className="about-us-des">
-                      <br/>
-                      <span className="capital-letter">M</span>ar y Sol<br/> 
-                      Un nuevo concepto que hemos diseñado minuciosamente, para entregarle a nuestros clientes
-                      la mejor calidad en productos provenientes del fruto del mar.
-                      </div>
+                    
                 </div>
+                <p className='text-after'>
+                      Freelance,independent, creative , adaptative, multi-Tasking & able to achieve my goals.
+                      <br/>
+                      Detail & love to work as a Team.
+                    </p>
                 <br/>
-                <br/>
+                <div className='arrow-2 text-center'>
+                <Link 
+                    to="nombre"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}         
+                    className="botton btn btn-xl">WHAT I DO?</Link>
+               </div>
                 <hr/>
                           {/* banner Start*/}   
                   <div className="banner-container">

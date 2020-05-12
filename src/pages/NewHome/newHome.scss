@@ -1,3 +1,16 @@
+// letters
+
+$cursive: 'Pacifico', cursive ; 
+$open:'Open Sans Condensed', sans-serif;
+
+// colors
+
+$orange: #C84D44;
+$dorado:#d79e5b ;
+$beige:#FECEA8;
+$grey: rgba(255,255,255,.5);
+$brown:#83342E;
+$grey2:#A99590;
 
 *{
     //universal selector 
@@ -71,7 +84,7 @@ text-align: center;
     height: 50vh;
     filter: grayscale(35%);
     //color: #fff;
-    background:black;
+    //background:black;
    //background-image: url(./img/banner.jpg);
     background-size: cover;
     //background-position: center; 
@@ -182,8 +195,7 @@ z-index: 100;
 position: relative;
 //margin-top: 20vh;
 font-size: 18px;
-// background: black;
-
+ background: #fff;
 }
 
 main .container { 
@@ -196,29 +208,33 @@ margin: auto;
 main .h2-subtitle{
 margin-bottom: 50px;
 padding: 0;
-font-size: 40px;
+font-size: 2rem;
 text-align: center;////
-font-family: 'Open Sans Condensed', sans-serif;
-color:#d79e5b ;
+font-family: $open;
+color:$orange ;
 
 }
 
 main .capital-letter {
 font-size: 55px;
-font-family: serif;
+font-family: $open;
 margin-right: 5px;
 line-height: 15px;
 }
 
+.initial-text{
+    font-size:2px
+}
 
 
 //////// About us seccion ////////
 
 .About-container{
     display: flex;
+    font-size:1.7rem ;
+     justify-content: center;
+     align-items: center;
 
-    // justify-content: center;
-    // align-items: center;
     // flex-wrap: wrap;
      @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
               margin-top: 20px;
@@ -231,17 +247,20 @@ line-height: 15px;
         margin-left: 30px;
         
     }
-    .about-us img{
-        height: 250px;
-        margin-left: none;
-        @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-            height: 200px;
-           
-      }
-      
-    }
+    
     
 }
+
+.text-after{
+    display: flex;
+    font-size:1.3rem ;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+    font-weight: 400;
+    color: $grey2;
+    font-family:$open
+    }
 
 .card-text{
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
@@ -365,6 +384,8 @@ border-bottom: 2px solid white;
    color:rgba(255, 255, 255, 0.7)
 }
 
+/// buttons
+
 .botton1{
     border-radius: 50px;
     border-color: rgba(255, 255, 255, 0.7) ;
@@ -373,8 +394,21 @@ border-bottom: 2px solid white;
     color: rgba(255, 255, 255, 0.7);
 }
 .botton1:hover{
-    background-color:#d79e5b;
-    border-color:#d79e5b;
+    background-color:$dorado;
+    border-color:$dorado;
+   
+}
+
+.botton{
+    border-radius: 50px;
+    border-color: rgba(255, 255, 255, 0.7) ;
+    width: 200px ;
+    background-color:#000;
+    color: rgba(255, 255, 255, 0.7);
+}
+.botton:hover{
+    background-color:$dorado;
+    border-color:$dorado;
    
 }
 
