@@ -5,6 +5,13 @@ import miami from'./miami2.jpg'
 import './ContactMe.scss'
 
 
+window.addEventListener('scroll', () => {
+  const header = document.getElementById('header-content');
+    header.style.opacity = false})
+
+
+
+
 function ContactMe() {
   const [name,setName] = useState('');
   const [status,setStatus] = useState('');
@@ -55,7 +62,7 @@ function ContactMe() {
 
   return (
       <Fragment>
-          <div className="header-up">
+          <div className="header-up" id="header-content">
                  <img alt="header" src={miami}/>
                  <div className="central-text">Contact Me</div>
              </div>
