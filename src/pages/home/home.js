@@ -15,9 +15,9 @@ import tecnologic from './img/tecno.png'
 //import Footer from '../ContactMe/Footer/Footer'
 
 
-window.addEventListener('scroll', () => {
-  const header = document.getElementById('header-content');
-    header.style.opacity = '1'- window.pageYOffset / 650;})
+// window.addEventListener('scroll', () => {
+//   const header = document.getElementById('header-content');
+//     header.style.opacity = '1'- window.pageYOffset / 650;})
 
 
 
