@@ -48,7 +48,7 @@ render(){
         <Navbar drawerClickHandler = {this.drawerToggleClickHandler}/>
         <SideDrawer show = {this.state.sideDrawerOpen}/>
         {backdrop}
-        <Route exact path='/' component={Home}></Route>
+        <Route exact path='/' component={NewHome}></Route>
         <Route exact path='/Home' component={Home}></Route>
         <Route exact path='/ContactMe' component={ContactMe}></Route>
         <Route exact path='/new-home' component={NewHome}></Route>

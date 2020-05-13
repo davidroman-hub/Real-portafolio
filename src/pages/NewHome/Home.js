@@ -21,7 +21,7 @@ const NewHome  = () => {
                     <h6 className="arrow-2"> We can build awesome things together</h6>    
                     <br/>
                     <Link 
-                    to="nombre"
+                    to="about"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -32,7 +32,7 @@ const NewHome  = () => {
         </header>
      
          <main>
-            <section className="container" id='nombre' >
+            <section className="container" id='about' >
                 <hr/>
                 <h2 className="h2-subtitle" id='about-us'>
                I GOT JUST WHAT YOU NEED
@@ -80,9 +80,10 @@ const NewHome  = () => {
                         <a className="git-btn btn mb-4 "  href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer">Github</a>
                     
               </div>
-        <div className="services">
+        <div className="services" id='skills'>
                 <br/>
                 <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 
+                <div className='figure2'/>
                 <div className="Hobbies-icon">
                     <p className='H-icons mr-5 ml-2'>
                       <i className="frame fab fa-react"></i>
@@ -119,7 +120,11 @@ const NewHome  = () => {
                     </p>
 
                 </div>
-        </div>       
+        </div> 
+
+        <div className="portfolio">
+        <h2>Portfolio</h2>
+        </div>      
      
 
         

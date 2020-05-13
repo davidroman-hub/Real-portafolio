@@ -140,6 +140,14 @@ text-align: center;
     height: 100px;
 }
 
+.figure2{
+    border-top: 3px solid #C84D44;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom:20px
+    
+}
+
 ///////////////////
 
 
@@ -319,68 +327,6 @@ line-height: 15px;
   }
 }
 
-/// shop styles ////
-
-
-
-
-.About-shop-container{
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    // flex-wrap: wrap;
-     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-              margin-top: 20px;
-              flex-direction: column;
-             
-        }
-
-    .shop-us-des{
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 18px;
-        margin-left: 80px;
-        //font-size:16px
-        @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-           margin-left:1px
-           
-      }
-        
-    }
-    
-      
-    .shop-us-des h4{
-    
-        font-family: 'PT Serif', serif;
-    }
-
-}
-
-
-
-
-
-//////////////////////////////////////
-
-
-
-
-
-.info2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding: 30px;
-    color:#d79e5b ;
-    font-weight: .5px;
-    font-size: 50px;
-
-}
-
-
-
-
 
 .Hobbies-icon {
 display: flex;
@@ -450,22 +396,3 @@ border-bottom: 2px solid white;
 }
 
 //////////////
-
-
-.map {
-    color:red;
-    font-size:25px
-}
-
-.Map-ps{
-display: flex;
-justify-content:center
-}
-
-input[type=checkbox]{
-    margin-top:10px
-}
-
-.hello{
-background-color:black
-}

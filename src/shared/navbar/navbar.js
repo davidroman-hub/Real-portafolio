@@ -40,15 +40,23 @@ const Navbar = (props) => {
                 <div className="spacer"/>
                 <div className=" toolbar_navigation-item">
                     <ul className="nav-items">
-                        <li><NavLink exact to ="/Home" className="item3" activeClassName="is-selected">Home</NavLink></li>
                         <li className="nav-item"> <Link 
                          activeClass="active"
-                         to="nombre"
+                         to="about"
                          spy={true}
                          smooth={true}
                          offset={-70}
                          duration={500}     
                         >About</Link></li>
+                            <li className="nav-item"> <Link 
+                         activeClass="active"
+                         to="skills"
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={500}     
+                        >Skills</Link></li>
+
                         {/* <li><NavLink exact to ="/AboutMe" className="item3" activeClassName="is-selected">About me</NavLink></li> */}
                         <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contact me</NavLink></li>
                         <li><NavLink exact to ="/new-home" className="item3" activeClassName="is-selected">New-home</NavLink></li>
