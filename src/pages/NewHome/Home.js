@@ -133,64 +133,59 @@ const NewHome  = () => {
                 </div>
         </div> 
 
-        <div className="portfolio">
-        <h4 className="text-center" >MY WORK</h4>
-        <div className="Hobbies-icon">
-             
-                     <div className='hover10 column'>
-                       <figure>
-                        <img src={marysol} alt='/' />
-                      </figure>
-                      <h5 className="text-center">Mongo DB</h5>
-                    </div>
-                    <div className='hover10 column'>
-                       <figure>
-                        <img src={roger} alt='/' />
-                      </figure>
-                      <h5 className="text-center">Mongo DB</h5>
-                    </div>
-                    <div className='hover10 column'>
-                       <figure>
-                        <img src={auth} alt='/' />
-                      </figure>
-                      <h5 className="text-center">Mongo DB</h5>
-                    </div>
-                    <div className='hover10 column'>
-                       <figure>
-                        <img src={abi} alt='/' />
-                      </figure>
-                      <h5 className="text-center">Mongo DB</h5>
-                    </div>
-                    <div className='hover10 column'>
-                       <figure>
-                        <img src={ecom} alt='/' />
-                      </figure>
-                      <h5 className="text-center">Mongo DB</h5>
-                    </div>
-                    <div className='hover10 column'>
-                       <figure>
-                        <img src={marysol} alt='/' />
-                      </figure>
-                      <h5 className="text-center">Mongo DB</h5>
-                    </div>
-                    {/* <p className='port-ilus'>
-                      <img src={roger} alt='/' />
-                      <h5 className="text-center">Next JS</h5>
-                    </p> 
-                    <p className='port-ilus'>
-                    <img src={auth} alt='/' className="text-center"/>
-                      <h5 className="text-center">Bootstrap 4</h5>
-                    </p>
-                    <p className='port-ilus'>
-                    <img src={abi} alt='/' className="text-center"/>
-                      <h5 className="text-center">Bootstrap 4</h5>
-                    </p>
-                    <p className='port-ilus'>
-                    <img src={ecom} alt='/' className="text-center"/>
-                      <h5 className="text-center">Bootstrap 4</h5>
-                    </p> */}
-                </div>
-        </div>      
+     <div className="Hobbies-icon">       
+        <div className='container-card'>
+           <div className="card">
+              <img src={marysol}/>
+                      <h4>Naturaleza</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a href="#">Leer más</a>
+            </div>
+        </div>
+        
+        <div className='container-card'>
+           <div className="card">
+              <img src={roger}/>
+                      <h4>Naturaleza</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a href="#">Leer más</a>
+            </div>
+        </div>
+        
+        <div className='container-card'>
+           <div className="card">
+              <img src={auth}/>
+                      <h4>Naturaleza</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div className='container-card'>
+           <div className="card">
+              <img src={ecom}/>
+                      <h4>Naturaleza</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div className='container-card'>
+           <div className="card">
+              <img src={abi}/>
+                      <h4>Naturaleza</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div className='container-card'>
+           <div className="card">
+              <img src={auth}/>
+                      <h4>Naturaleza</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a href="#">Leer más</a>
+            </div>
+        </div>
+        </div>
+              
      
 
         
