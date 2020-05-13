@@ -86,40 +86,40 @@ const NewHome  = () => {
                 <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 
                 <div className='figure2'/>
                 <div className="Hobbies-icon">
-                    <p className='H-icons mr-5 ml-2'>
+                    <p className='H-icons'>
                       <i className="frame fab fa-react"></i>
                         <h5 className="text-center">React</h5>
                     </p>
-                    <p className='H-icons mr-5'>
+                    <p className='H-icons'>
                       <i className="frame fab fa-node-js"></i>
                       <h5 className="text-center">Node JS</h5>
                     </p>
                    
-                    <p className='H-icons mr-5'>
+                    <p className='H-icons'>
                       <i className="frame fab fa-digital-ocean ml-4"></i>
                       <h5 className="text-center">Digital Ocean</h5>
                     </p>
                     <p className='H-icons '>
-                      <i className="frame fab fa-aws mr-5"></i>
+                      <i className="frame fab fa-aws"></i>
                       <h5 className="text-center">Amazon Web S.</h5>
                     </p> 
-                     <p className='mongo mr-5 ml-4'>
-                      <img src={mongo} alt='/' />
-                      <h5 className="text-center">Mongo DB</h5>
-                    </p>
-                    <p className='mongo ml-4 mr-5'>
-                      <img src={next} alt='/' />
-                      <h5 className="text-center">Next JS</h5>
-                    </p> 
-                    <p className='mongo  ml-5'>
-                    <img src={boots} alt='/' className="text-center"/>
-                      <h5 className="text-center">Bootstrap 4</h5>
-                    </p>
-                    <p className='H-icons mr-5 ml-5'>
+                    <p className='H-icons'>
                       <i className="frame fab fa-sass"></i>
                       <h5 className="text-center">Sass</h5>
                     </p>
-
+                    <br/>
+                     <p className='mongo '>
+                      <img src={mongo} alt='/' />
+                      <h5 className="text-center">Mongo DB</h5>
+                    </p>
+                    <p className='mongo '>
+                      <img src={next} alt='/' />
+                      <h5 className="text-center">Next JS</h5>
+                    </p> 
+                    <p className='mongo '>
+                    <img src={boots} alt='/' className="text-center"/>
+                      <h5 className="text-center">Bootstrap 4</h5>
+                    </p>
                 </div>
         </div> 
 
