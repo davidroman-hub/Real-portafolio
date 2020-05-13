@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 
 //Pages
-import Home from './pages/home/home'
 import ContactMe from './pages/ContactMe/ContactMe'
 import NewHome from './pages/NewHome/Home'
 //import FooterV from './pages/ContactMe/Footer/Footer'
@@ -49,9 +48,8 @@ render(){
         <SideDrawer show = {this.state.sideDrawerOpen}/>
         {backdrop}
         <Route exact path='/' component={NewHome}></Route>
-        <Route exact path='/Home' component={Home}></Route>
         <Route exact path='/ContactMe' component={ContactMe}></Route>
-        <Route exact path='/new-home' component={NewHome}></Route>
+        <Route exact path='/home' component={NewHome}></Route>
         {/* <Route exact path='/AboutMe' component={AboutMe}></Route> */}
 
       {/* <FooterV></FooterV> */}

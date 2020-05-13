@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import { NavLink } from 'react-router-dom'
 import DrawerToggleButton from './Sidredrawer/DrawerToggleButton'
 import './navbar.scss'
-import Logo from '../../pages/home/img/nuevo-log.png'
+import Logo from '../../pages/NewHome/images/nuevo-log.png'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = (props) => {
@@ -59,7 +59,6 @@ const Navbar = (props) => {
 
                         {/* <li><NavLink exact to ="/AboutMe" className="item3" activeClassName="is-selected">About me</NavLink></li> */}
                         <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contact me</NavLink></li>
-                        <li><NavLink exact to ="/new-home" className="item3" activeClassName="is-selected">New-home</NavLink></li>
                     </ul>
                 </div>
                 
