@@ -31,12 +31,13 @@ const NewHome  = () => {
         
         </header>
      
-         <main>
+         <div>
             <section className="container" id='about' >
-                <hr/>
+              <br/>
                 <h2 className="h2-subtitle" id='about-us'>
                I GOT JUST WHAT YOU NEED
                 </h2>
+           <hr/>
                 <div className="About-container">
                     <div className="about-us text-center">
                     Fullstack JS, Frontend & Backend Developer,
@@ -62,7 +63,7 @@ const NewHome  = () => {
                </div>
                 <hr/>          
               </section>
-        </main> 
+        </div> 
       
         <div className="github-section text-center">
           <br/>

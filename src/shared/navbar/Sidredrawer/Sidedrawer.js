@@ -15,8 +15,10 @@ const SideDrawer = (props) => {
 
 return(
 <nav className = { drawerClasses.join(' ')}>
-    
+
+
     <ul className="nav-items">
+                        <li className="take" disabled>X</li>
                         <li className="nav-item"> <Link 
                          activeClass="active"
                          to="about"
@@ -24,7 +26,7 @@ return(
                          smooth={true}
                          offset={-70}
                          duration={500}     
-                        >About</Link></li>
+                        >ABOUT</Link></li>
                             <li className="nav-item"> <Link 
                          activeClass="active"
                          to="skills"
@@ -32,7 +34,7 @@ return(
                          smooth={true}
                          offset={-70}
                          duration={500}     
-                        >Skills</Link></li>
+                        >SKILLS</Link></li>
 
                         {/* <li><NavLink exact to ="/AboutMe" className="item3" activeClassName="is-selected">About me</NavLink></li> */}
                         <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contact me</NavLink></li>

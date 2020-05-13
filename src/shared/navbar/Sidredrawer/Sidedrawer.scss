@@ -28,7 +28,7 @@
     padding:50px;
    height:70%;
    list-style: none;
-  display: flex;
+   display: flex;
   flex-direction: column;
   justify-content:center;
   //background-color: #1c0d02 ;
@@ -69,4 +69,8 @@
     }
   }
  
- 
+ .take{
+   font-size: 12px;
+   margin-left:250px ;
+   color: #fff;
+ }
