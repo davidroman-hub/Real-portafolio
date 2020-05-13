@@ -83,7 +83,7 @@ text-align: center;
 .github-section{
   
     //filter: grayscale(35%);
-    height: 50vh;
+    //height: 80vh;
     color: #fff;
     background-color:$grey3;
     font-family:'Open Sans Condensed', sans-serif;
@@ -123,6 +123,27 @@ text-align: center;
     font-size:100px
 }
 //////////////////////////////////////////
+//// SERVICES/////
+
+
+.services{
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+.frame{
+    font-size: 100px;
+   // margin-right: 20px;
+}
+
+
+.mongo img{
+    height: 100px;
+}
+
+///////////////////
+
+
+
 
 .container{
     max-width: 2120px

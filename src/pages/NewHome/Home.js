@@ -1,7 +1,9 @@
 import React,{Fragment, Component} from 'react'
 import './newHome.scss'
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import mongo from './images/mongo.png'
+import next from './images/next.png'
+import boots from './images/boots.png'
 
 const NewHome  = () => { 
     return (
@@ -67,6 +69,7 @@ const NewHome  = () => {
                       <h4 className="text-center">
                         CHECK MY CODE ON GITHUB
                         </h4>
+                        <div className="figure"/>  
                         <p className="text-git">I have specialized mainly in MERN applications, 
                           I invite you to visit my Github portfolio to see the process of each of my Rest API's and
                            Applications I have created 
@@ -74,9 +77,49 @@ const NewHome  = () => {
                      
                         <i className="git-icon fab fa-github"></i>
                         <br/>
-                        <a className="git-btn btn "  href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer">Github</a>
-                      
+                        <a className="git-btn btn mb-4 "  href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer">Github</a>
+                    
               </div>
+        <div className="services">
+                <br/>
+                <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 
+                <div className="Hobbies-icon">
+                    <p className='H-icons mr-5 ml-2'>
+                      <i className="frame fab fa-react"></i>
+                        <h5 className="text-center">React</h5>
+                    </p>
+                    <p className='H-icons mr-5'>
+                      <i className="frame fab fa-node-js"></i>
+                      <h5 className="text-center">Node JS</h5>
+                    </p>
+                   
+                    <p className='H-icons mr-5'>
+                      <i className="frame fab fa-digital-ocean ml-4"></i>
+                      <h5 className="text-center">Digital Ocean</h5>
+                    </p>
+                    <p className='H-icons '>
+                      <i className="frame fab fa-aws mr-5"></i>
+                      <h5 className="text-center">Amazon Web S.</h5>
+                    </p> 
+                     <p className='mongo mr-5 ml-4'>
+                      <img src={mongo} alt='/' />
+                      <h5 className="text-center">Mongo DB</h5>
+                    </p>
+                    <p className='mongo ml-4 mr-5'>
+                      <img src={next} alt='/' />
+                      <h5 className="text-center">Next JS</h5>
+                    </p> 
+                    <p className='mongo  ml-5'>
+                    <img src={boots} alt='/' className="text-center"/>
+                      <h5 className="text-center">Bootstrap 4</h5>
+                    </p>
+                    <p className='H-icons mr-5 ml-5'>
+                      <i className="frame fab fa-sass"></i>
+                      <h5 className="text-center">Sass</h5>
+                    </p>
+
+                </div>
+        </div>       
      
 
         
