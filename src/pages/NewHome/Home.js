@@ -1,9 +1,19 @@
 import React,{Fragment, Component} from 'react'
 import './newHome.scss'
 import { Link, animateScroll as scroll } from "react-scroll";
+// images skills
 import mongo from './images/mongo.png'
 import next from './images/next.png'
 import boots from './images/boots.png'
+
+// images Protfolio
+import marysol from './images/marysol.PNG'
+import roger from './images/roger.PNG'
+import auth from './images/auth.PNG'
+import abi from './images/abi.PNG'
+import ecom from './images/ecommerce.PNG'
+
+
 
 const NewHome  = () => { 
     return (
@@ -124,7 +134,62 @@ const NewHome  = () => {
         </div> 
 
         <div className="portfolio">
-        <h2>Portfolio</h2>
+        <h4 className="text-center" >MY WORK</h4>
+        <div className="Hobbies-icon">
+             
+                     <div className='hover10 column'>
+                       <figure>
+                        <img src={marysol} alt='/' />
+                      </figure>
+                      <h5 className="text-center">Mongo DB</h5>
+                    </div>
+                    <div className='hover10 column'>
+                       <figure>
+                        <img src={roger} alt='/' />
+                      </figure>
+                      <h5 className="text-center">Mongo DB</h5>
+                    </div>
+                    <div className='hover10 column'>
+                       <figure>
+                        <img src={auth} alt='/' />
+                      </figure>
+                      <h5 className="text-center">Mongo DB</h5>
+                    </div>
+                    <div className='hover10 column'>
+                       <figure>
+                        <img src={abi} alt='/' />
+                      </figure>
+                      <h5 className="text-center">Mongo DB</h5>
+                    </div>
+                    <div className='hover10 column'>
+                       <figure>
+                        <img src={ecom} alt='/' />
+                      </figure>
+                      <h5 className="text-center">Mongo DB</h5>
+                    </div>
+                    <div className='hover10 column'>
+                       <figure>
+                        <img src={marysol} alt='/' />
+                      </figure>
+                      <h5 className="text-center">Mongo DB</h5>
+                    </div>
+                    {/* <p className='port-ilus'>
+                      <img src={roger} alt='/' />
+                      <h5 className="text-center">Next JS</h5>
+                    </p> 
+                    <p className='port-ilus'>
+                    <img src={auth} alt='/' className="text-center"/>
+                      <h5 className="text-center">Bootstrap 4</h5>
+                    </p>
+                    <p className='port-ilus'>
+                    <img src={abi} alt='/' className="text-center"/>
+                      <h5 className="text-center">Bootstrap 4</h5>
+                    </p>
+                    <p className='port-ilus'>
+                    <img src={ecom} alt='/' className="text-center"/>
+                      <h5 className="text-center">Bootstrap 4</h5>
+                    </p> */}
+                </div>
         </div>      
      
 

@@ -409,3 +409,39 @@ display: flex;
 }
 
 //////////////
+
+
+///////Portfolio///
+
+.portfolio{
+    font-family:$open;
+    background-color:$grey3;
+}
+
+.port-ilus img{
+height: 250px;
+}
+
+.port-ilus{
+    margin-left: 80px;
+}
+
+.roger img{
+    height: 250px;
+}
+
+
+
+.hover10 figure img {
+	-webkit-filter: grayscale(100%) blur(1px);
+	filter: grayscale(100%) blur(1px);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    height: 250px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.hover10 figure:hover img {
+	-webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+}
