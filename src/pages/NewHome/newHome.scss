@@ -12,6 +12,7 @@ $grey: rgba(255,255,255,.5);
 $brown:#83342E;
 $grey2:#A99590;
 $grey3:#343A40;
+$blue:#1464ba;
 
 *{
     //universal selector 
@@ -85,7 +86,7 @@ text-align: center;
     //filter: grayscale(35%);
     //height: 80vh;
     color: #fff;
-    background-color:$grey3;
+    background-color:$blue;
     font-family:'Open Sans Condensed', sans-serif;
     
     //background-attachment:cover;
@@ -415,8 +416,15 @@ display: flex;
 
 .portfolio{
     font-family:$open;
+    //background-color:rgba(240, 95, 64, 0.9);
     background-color:$grey3;
+    font-weight: 400;
 }
+
+.portfolio h4{
+    color:#fff
+}
+
 
 .port-ilus img{
 height: 250px;
@@ -493,6 +501,7 @@ height: 250px;
 .container-card .card img{
     width: 200px;
     height: 250px;
+    border-radius: 12px;
 }
 
 
@@ -502,7 +511,7 @@ height: 250px;
 
 .container-card .card p{
     padding: 0 1rem;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 300;
 }
 

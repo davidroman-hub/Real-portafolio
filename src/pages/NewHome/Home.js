@@ -132,14 +132,16 @@ const NewHome  = () => {
                     </p>
                 </div>
         </div> 
-
+<div className="portfolio">
+  <h4 className="text-center">PROJECTS</h4> 
+    <div className='figure2'/>
      <div className="Hobbies-icon">       
         <div className='container-card'>
            <div className="card">
-              <img src={marysol}/>
-                      <h4>Naturaleza</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                        <a href="#">Leer más</a>
+              <img src={marysol} alt='/'/>
+                      <h5 className="mb-1 mt-2">Restaurant Mar y sol</h5>
+                       <p className="description-t">Ecommerce MERN App, using Bootrap4, React JS , MongoDB, Express , Node JS, Sass , Google auth & Sendgrid service.</p>
+                        <a href="http://134.122.119.185/" target='_blank' rel='noopener noreferrer' >Read more</a>
             </div>
         </div>
         
@@ -185,7 +187,7 @@ const NewHome  = () => {
             </div>
         </div>
         </div>
-              
+      </div>        
      
 
         
