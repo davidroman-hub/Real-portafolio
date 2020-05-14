@@ -4,6 +4,7 @@ import DrawerToggleButton from './Sidredrawer/DrawerToggleButton'
 import './navbar.scss'
 import Logo from '../../pages/NewHome/images/nuevo-log.png'
 import { Link, animateScroll as scroll } from "react-scroll";
+import resume from './resume.pdf'
 
 const Navbar = (props) => {
 
@@ -64,8 +65,8 @@ const Navbar = (props) => {
                          offset={-70}
                          duration={500}     
                         >PORTFOLIO</Link></li>
-                        <li><a href="https://www.dropbox.com/s/un2wyq2r74soiny/CURRICULUM_JOB%20DAVID%20ROMAN.pdf?dl=0" target='_blank' rel='noopener noreferrer' >RESUME</a></li>
-
+                        {/* <li><a href="https://www.dropbox.com/s/un2wyq2r74soiny/CURRICULUM_JOB%20DAVID%20ROMAN.pdf?dl=0" target='_blank' rel='noopener noreferrer' >RESUME</a></li> */}
+                        <li><a href={resume} download={resume} >RESUME</a></li>
                         {/* <li><NavLink exact to ="/AboutMe" className="item3" activeClassName="is-selected">About me</NavLink></li> */}
                         <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contact me</NavLink></li>
                     </ul>

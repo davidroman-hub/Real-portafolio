@@ -1,6 +1,7 @@
 import React,{Fragment, Component} from 'react'
 import './newHome.scss'
 import { Link, animateScroll as scroll } from "react-scroll";
+import resume from '../../shared/navbar/resume.pdf'
 // images skills
 import mongo from './images/mongo.png'
 import next from './images/next.png'
@@ -201,8 +202,7 @@ const NewHome  = () => {
         <h4 className="info5 text-center">WOULD YOU LIKE TO CHECK OUT MY RESUME?</h4>
         <div className="figure"/>
       <div className="spacer3"/>
-       <a className="botton btn btn-xl"  href="https://www.dropbox.com/s/un2wyq2r74soiny/CURRICULUM_JOB%20DAVID%20ROMAN.pdf?dl=0" target="_blank" rel="noopener noreferrer">YEAH!</a>
-      
+       <a className="botton btn btn-xl" href={resume} download={resume} >YEAH!</a>
       </div>
      
 

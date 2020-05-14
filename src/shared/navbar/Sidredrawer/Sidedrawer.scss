@@ -1,5 +1,5 @@
 .side-drawer{
-    height: 50vh;
+    height: 60vh;
     background:#282828 ;
     box-shadow: 1px 0px 7px rgb(0, 0, 0.5);
     position:fixed;
@@ -70,10 +70,14 @@
   }
  
  .take{
-   font-size: 12px;
-   margin-left:250px ;
+   font-size: 15px;
+   margin-left:290px ;
    color: #fff;
- }
+   margin-top: 40px;
+   position:absolute;
+   @media(min-width:1024px) {
+      margin-left:350px;
+ }}
  
  a{
    text-decoration: none !important;

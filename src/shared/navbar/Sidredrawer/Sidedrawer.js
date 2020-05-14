@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Sidedrawer.scss'
 import { Link, animateScroll as scroll } from "react-scroll";
+import resume from '../../navbar/resume.pdf'
+
 
 const SideDrawer = (props) => {
     let drawerClasses = ['side-drawer'];
@@ -43,14 +45,15 @@ return(
                          offset={-70}
                          duration={500}     
                         >PORTFOLIO</Link></li>
-                         <li><a
+                         {/* <li><a
                            className='nav-item'
                             href="https://www.dropbox.com/s/un2wyq2r74soiny/CURRICULUM_JOB%20DAVID%20ROMAN.pdf?dl=0" 
                             target='_blank' 
                             rel='noopener noreferrer' >
                              RESUME
                              </a>
-                        </li>
+                        </li> */}
+                         <li><a className="nav-item" href={resume} download={resume} >RESUME</a></li>
 
                         {/* <li><NavLink exact to ="/AboutMe" className="item3" activeClassName="is-selected">About me</NavLink></li> */}
                         <li><NavLink exact to ="/ContactMe" className="item3" activeClassName="is-selected">Contact me</NavLink></li>
