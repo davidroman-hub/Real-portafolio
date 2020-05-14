@@ -21,7 +21,7 @@ return(
 
     <ul className="nav-items">
                         <li className="take" disabled>X</li>
-                        <li className="nav-item"> <Link 
+                        <li className="nav-item mt-4"> <Link 
                          activeClass="active"
                          to="about"
                          spy={true}

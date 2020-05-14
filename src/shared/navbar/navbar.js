@@ -41,7 +41,7 @@ const Navbar = (props) => {
                 <div className="spacer"/>
                 <div className=" toolbar_navigation-item">
                     <ul className="nav-items">
-                        <li className="nav-item"> <Link 
+                        <li className="nav-item mt-5"> <Link 
                          activeClass="active"
                          to="about"
                          spy={true}
