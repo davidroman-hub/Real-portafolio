@@ -162,7 +162,7 @@ const NewHome  = () => {
               <img src={auth} alt='/' />
               <h6 className="mb-1 mt-2">Ultimate Auth</h6>
                       <div className="figure2"/>
-                      <p className="description-t mb-1">MERN-application for login , with account activation using sendgrid, google, facebook,Bootstrap 4, React JS , MongoDB, Express , Node JS & Sass. Hosting on Digital Ocean. </p>
+                      <p className="description-t mb-1">MERN-application for login , with account activation using sendgrid, google, facebook,Bootstrap 4, React JS , MongoDB, Express , Node JS & Sass. </p>
                         <a href="http://206.189.227.84/" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
@@ -196,6 +196,14 @@ const NewHome  = () => {
         </div>
         </div>
       </div>        
+      <div className="resume">
+        <br/>
+        <h4 className="info5 text-center">WOULD YOU LIKE TO CHECK OUT MY RESUME?</h4>
+        <div className="figure"/>
+      <div className="spacer3"/>
+       <a className="botton btn btn-xl"  href="https://www.dropbox.com/s/un2wyq2r74soiny/CURRICULUM_JOB%20DAVID%20ROMAN.pdf?dl=0" target="_blank" rel="noopener noreferrer">YEAH!</a>
+      
+      </div>
      
 
         
