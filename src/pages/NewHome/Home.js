@@ -139,29 +139,33 @@ const NewHome  = () => {
         <div className='container-card'>
            <div className="card">
               <img src={marysol} alt='/'/>
-                      <h5 className="mb-1 mt-2">Restaurant Mar y sol</h5>
-                       <p className="description-t">Ecommerce MERN App, using Bootrap4, React JS , MongoDB, Express , Node JS, Sass , Google auth & Sendgrid service.</p>
+                      <h6 className="mb-1 mt-2">Restaurant Mar y sol</h6>
+                      <div className="figure2"/>
+                       <p className="description-t mb-2">Ecommerce MERN App, using Bootrap4, React JS , MongoDB, Express , Node JS, Sass , Google auth & Sendgrid service.</p>
                         <a href="http://134.122.119.185/" target='_blank' rel='noopener noreferrer' >Read more</a>
             </div>
         </div>
         
         <div className='container-card'>
            <div className="card">
-              <img src={roger}/>
-                      <h4>Naturaleza</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                        <a href="#">Leer más</a>
+              <img src={roger} alt='/' />
+              <h6 className="mb-1 mt-2">Roger & Paq</h6>
+                      <div className="figure2"/>
+                      <p className="description-t mb-2">Ecommerce MERN App, using Bootrap4, React JS , MongoDB, Express , Node JS, Sass & BRAINTREE service.</p>
+                        <a href="http://68.183.135.73/shop" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
         
         <div className='container-card'>
            <div className="card">
-              <img src={auth}/>
-                      <h4>Naturaleza</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                        <a href="#">Leer más</a>
+              <img src={auth} alt='/' />
+              <h6 className="mb-1 mt-2">Ultimate Auth</h6>
+                      <div className="figure2"/>
+                      <p className="description-t mb-1">MERN-application for login , with account activation using sendgrid, google, facebook,Bootrap4, React JS , MongoDB, Express , Node JS & Sass </p>
+                        <a href="http://206.189.227.84/" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
+
         <div className='container-card'>
            <div className="card">
               <img src={ecom}/>
