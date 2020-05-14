@@ -12,7 +12,7 @@ import roger from './images/roger.PNG'
 import auth from './images/auth.PNG'
 import abi from './images/abi.PNG'
 import ecom from './images/ecommerce.PNG'
-
+import mine from './images/mine.PNG'
 
 
 const NewHome  = () => { 
@@ -64,7 +64,7 @@ const NewHome  = () => {
                 <br/>
                 <div className='arrow-2 text-center'>
                 <Link 
-                    to="nombre"
+                    to="projects"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -132,7 +132,8 @@ const NewHome  = () => {
                     </p>
                 </div>
         </div> 
-<div className="portfolio">
+<div className="portfolio" id='projects'>
+  <hr/>
   <h4 className="text-center">PROJECTS</h4> 
     <div className='figure2'/>
      <div className="Hobbies-icon">       
@@ -141,7 +142,7 @@ const NewHome  = () => {
               <img src={marysol} alt='/'/>
                       <h6 className="mb-1 mt-2">Restaurant Mar y sol</h6>
                       <div className="figure2"/>
-                       <p className="description-t mb-2">Ecommerce MERN App, using Bootrap4, React JS , MongoDB, Express , Node JS, Sass , Google auth & Sendgrid service.</p>
+                       <p className="description-t mb-2">E-commerce MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass , Google auth & Sendgrid service. Hosting on Digital Ocean.</p>
                         <a href="http://134.122.119.185/" target='_blank' rel='noopener noreferrer' >Read more</a>
             </div>
         </div>
@@ -151,7 +152,7 @@ const NewHome  = () => {
               <img src={roger} alt='/' />
               <h6 className="mb-1 mt-2">Roger & Paq</h6>
                       <div className="figure2"/>
-                      <p className="description-t mb-2">Ecommerce MERN App, using Bootrap4, React JS , MongoDB, Express , Node JS, Sass & BRAINTREE service.</p>
+                      <p className="description-t mb-2">E-commerce MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass & BRAINTREE service. Hosting on Digital Ocean.</p>
                         <a href="http://68.183.135.73/shop" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
@@ -161,33 +162,36 @@ const NewHome  = () => {
               <img src={auth} alt='/' />
               <h6 className="mb-1 mt-2">Ultimate Auth</h6>
                       <div className="figure2"/>
-                      <p className="description-t mb-1">MERN-application for login , with account activation using sendgrid, google, facebook,Bootrap4, React JS , MongoDB, Express , Node JS & Sass </p>
+                      <p className="description-t mb-1">MERN-application for login , with account activation using sendgrid, google, facebook,Bootstrap 4, React JS , MongoDB, Express , Node JS & Sass. Hosting on Digital Ocean. </p>
                         <a href="http://206.189.227.84/" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
-
         <div className='container-card'>
            <div className="card">
-              <img src={ecom}/>
-                      <h4>Naturaleza</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                        <a href="#">Leer más</a>
+              <img src={ecom} alt='/' />
+              <h6 className="mb-1 mt-2">Simple E-commerce</h6>
+                      <div className="figure2"/>
+                      <p className="description-t mb-1">E-commerce MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass & BRAINTREE service. </p>
+                        <a href="https://github.com/davidroman-hub/ecommerce-front" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
         <div className='container-card'>
            <div className="card">
-              <img src={abi}/>
-                      <h4>Naturaleza</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                        <a href="#">Leer más</a>
+              <img src={mine} alt='/' />
+              <h6 className="mb-1 mt-2">My Personal page</h6>
+                      <div className="figure2"/>
+                      <p className="description-t mb-5">A React JS App using Bootstrap 4, Sass, Netlify and Node Js  </p>
+                        <a href="https://github.com/davidroman-hub/Real-portafolio" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
+        
         <div className='container-card'>
            <div className="card">
-              <img src={auth}/>
-                      <h4>Naturaleza</h4>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                        <a href="#">Leer más</a>
+              <img src={abi} alt='/' />
+              <h6 className="mb-1 mt-2">Contemporary Artist Blog</h6>
+                      <div className="figure2"/>
+                      <p className="description-t mb-5">A React JS App using Sass & Netlify</p>
+                        <a href="https://romantic-sammet-63ec69.netlify.app/" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
         </div>
