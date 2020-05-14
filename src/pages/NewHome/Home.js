@@ -19,6 +19,8 @@ import mine from './images/mine.PNG'
 const NewHome  = () => { 
     return (
         <Fragment>
+
+          {/* HEADER */}
          
         <header className="header-content "  id="header-content">
             <div className="header-text">   
@@ -42,6 +44,8 @@ const NewHome  = () => {
         
         </header>
      
+             {/* ABOUT */}
+
          <div>
             <section className="container" id='about' >
               <br/>
@@ -75,6 +79,8 @@ const NewHome  = () => {
                 <hr/>          
               </section>
         </div> 
+
+          {/* GITHUB SECTION */}
       
         <div className="github-section text-center">
           <br/>
@@ -92,6 +98,9 @@ const NewHome  = () => {
                         <a className="git-btn btn mb-4 "  href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer">Github</a>
                     
               </div>
+
+            {/* SKILLS */}
+
         <div className="services" id='skills'>
                 <br/>
                 <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 
@@ -133,6 +142,11 @@ const NewHome  = () => {
                     </p>
                 </div>
         </div> 
+
+
+        {/* PORTFOLIO */}
+
+
 <div className="portfolio" id='projects'>
   <hr/>
   <h4 className="text-center">PROJECTS</h4> 
@@ -197,6 +211,9 @@ const NewHome  = () => {
         </div>
         </div>
       </div>        
+
+            {/* RESUME */}
+
       <div className="resume">
         <br/>
         <h4 className="info5 text-center">WOULD YOU LIKE TO CHECK OUT MY RESUME?</h4>
@@ -204,8 +221,49 @@ const NewHome  = () => {
       <div className="spacer3"/>
        <a className="botton btn btn-xl" href={resume} download={resume} >YEAH!</a>
       </div>
-     
 
+
+          {/* Contact */}
+
+      <div >
+                 <div id='contact'></div>
+             </div>
+           
+            <div className="info">
+                 Get in touch with me!
+            </div>
+            <div className='figure2'/>
+            <div className="font-figures">
+                 <i class="fas fa-map-marker-alt">
+        
+                      <p className="text-p">France - Paris Malakoff</p>
+                      <br></br>
+                     
+                  </i>
+                 <div className="mailes">
+                    <i class="fas fa-envelope-open">
+             
+                       {/* <p className="text-p">Jobroman83@gmail.com</p> */}
+                      <a  className='mail' href="mailto:jobroman83@gmail.com">Jobroman83@gmail.com</a>
+                      <br/>
+                     
+                      </i>
+                 </div>
+                 
+                    <i class="fas fa-phone">
+                     
+                      <p className="text-p">+33 7 87 42 20 67</p>
+                      <br/>
+                     
+                      </i>
+                 
+                 {/* <i class="fab fa-whatsapp-square">
+                      <p>Phone</p>
+                      <p className="text-p">+33 7 87 42 20 67 (only calls- France)</p>
+               
+                   </i> */}
+
+             </div> 
         
         
     </Fragment>

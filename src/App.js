@@ -48,7 +48,7 @@ render(){
         <SideDrawer show = {this.state.sideDrawerOpen}/>
         {backdrop}
         <Route exact path='/' component={NewHome}></Route>
-        <Route exact path='/ContactMe' component={ContactMe}></Route>
+        {/* <Route exact path='/ContactMe' component={ContactMe}></Route> */}
         <Route exact path='/home' component={NewHome}></Route>
         {/* <Route exact path='/AboutMe' component={AboutMe}></Route> */}
 
