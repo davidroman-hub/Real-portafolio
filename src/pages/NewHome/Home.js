@@ -232,14 +232,9 @@ const NewHome  = () => {
             <div className="info">
                  Get in touch with me!
             </div>
-            <div className='figure2'/>
+            <div className='figure2 mb-5'/>
             <div className="font-figures">
-                 <i class="fas fa-map-marker-alt">
-        
-                      <p className="text-p">France - Paris Malakoff</p>
-                      <br></br>
-                     
-                  </i>
+              
                  <div className="mailes">
                     <i class="fas fa-envelope-open">
              
@@ -250,9 +245,12 @@ const NewHome  = () => {
                       </i>
                  </div>
                  
-                    <i class="fas fa-phone">
+                    <i class="fas fa-phone mt-4 ml-5">
                      
-                      <p className="text-p">+33 7 87 42 20 67</p>
+                      <p className="text-p">+33 7 87 42 20 67 FR <br/>
+                      +52 55 18 52 64 12 MX
+                      </p>
+                     
                       <br/>
                      
                       </i>
