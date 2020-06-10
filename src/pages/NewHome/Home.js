@@ -248,7 +248,7 @@ const NewHome  = () => {
                     <i class="fas fa-envelope-open">
              
                        {/* <p className="text-p">Jobroman83@gmail.com</p> */}
-                      <a  className='mail' href="mailto:jobroman83@gmail.com">Jobroman83@gmail.com</a>
+                      <a  className='mail' href="mailto:david.roman.works">david.roman.works@gmail.com</a>
                       <br/>
                      
                       </i>
