@@ -14,7 +14,7 @@ import auth from './images/auth.PNG'
 import abi from './images/abi.PNG'
 import ecom from './images/ecommerce.PNG'
 import mine from './images/mine.PNG'
-
+import lost from './images/lost.PNG'
 
 const NewHome  = () => { 
     return (
@@ -30,7 +30,7 @@ const NewHome  = () => {
                         Developing &  Web Design
                     </h4>
                         <hr/>
-                    <div className="figure"/>    
+                    <div className="figure text-center"/>    
                     <h6 className="arrow-2"> We can build awesome things together</h6>    
                     <br/>
                     <Link 
@@ -207,6 +207,15 @@ const NewHome  = () => {
                       <div className="figure2"/>
                       <p className="description-t mb-5">A React JS App using Sass & Netlify</p>
                         <a href="https://romantic-sammet-63ec69.netlify.app/" target='_blank' rel='noopener noreferrer'>Read more</a>
+            </div>
+        </div>
+        <div className='container-card'>
+           <div className="card">
+              <img src={lost} alt='/' />
+              <h6 className="mb-1 mt-2">Lost fusion Rock Band</h6>
+                      <div className="figure2"/>
+                      <p className="description-t mb-5">A React JS App using Sass & Netlify</p>
+                        <a href="https://lostfusion.com.mx" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
         </div>
