@@ -152,6 +152,15 @@ const NewHome  = () => {
   <h4 className="text-center">PROJECTS</h4> 
     <div className='figure2'/>
      <div className="Hobbies-icon">       
+     <div className='container-card'>
+           <div className="card">
+              <img src={lost} alt='/' />
+              <h6 className="mb-1 mt-2">Lost fusion Rock Band</h6>
+                      <div className="figure2"/>
+                      <p className="description-t mb-5">A React JS App using Sass & Netlify</p>
+                        <a href="https://lostfusion.com.mx" target='_blank' rel='noopener noreferrer'>Read more</a>
+            </div>
+        </div>
         <div className='container-card'>
            <div className="card">
               <img src={marysol} alt='/'/>
@@ -209,15 +218,7 @@ const NewHome  = () => {
                         <a href="https://romantic-sammet-63ec69.netlify.app/" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
         </div>
-        <div className='container-card'>
-           <div className="card">
-              <img src={lost} alt='/' />
-              <h6 className="mb-1 mt-2">Lost fusion Rock Band</h6>
-                      <div className="figure2"/>
-                      <p className="description-t mb-5">A React JS App using Sass & Netlify</p>
-                        <a href="https://lostfusion.com.mx" target='_blank' rel='noopener noreferrer'>Read more</a>
-            </div>
-        </div>
+       
         </div>
       </div>        
 
