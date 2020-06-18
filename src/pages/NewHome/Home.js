@@ -153,7 +153,7 @@ const NewHome  = () => {
   <h4 className="text-center">PROJECTS</h4> 
     <div className='figure2'/>
      <div className="Hobbies-icon">   
-     <div className='container-card'>
+     {/* <div className='container-card'>
            <div className="card">
               <img src={venecia} alt='/' />
               <h6 className="mb-1 mt-2">Events Room Venecia Mexico City</h6>
@@ -161,7 +161,7 @@ const NewHome  = () => {
                       <p className="description-t " style={{fontSize:'12px'}}>MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass  & Sendgrid service. Hosting on Digital Ocean.</p>
                         <a href="http://salonvenecia.com.mx" target='_blank' rel='noopener noreferrer'>Read more</a>
             </div>
-        </div>    
+        </div>     */}
      <div className='container-card'>
            <div className="card">
               <img src={lost} alt='/' />
