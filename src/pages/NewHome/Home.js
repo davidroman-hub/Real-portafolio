@@ -15,7 +15,7 @@ import abi from './images/abi.PNG'
 import ecom from './images/ecommerce.PNG'
 import mine from './images/mine.PNG'
 import lost from './images/lost.PNG'
-import venecia from './images/venecia.PNG'
+//import venecia from './images/venecia.PNG'
 
 const NewHome  = () => { 
     return (
