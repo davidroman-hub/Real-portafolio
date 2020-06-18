@@ -15,6 +15,7 @@ import abi from './images/abi.PNG'
 import ecom from './images/ecommerce.PNG'
 import mine from './images/mine.PNG'
 import lost from './images/lost.PNG'
+import venecia from './images/venecia.PNG'
 
 const NewHome  = () => { 
     return (
@@ -119,10 +120,10 @@ const NewHome  = () => {
                       <i className="frame fab fa-digital-ocean ml-4"></i>
                       <h5 className="text-center">Digital Ocean</h5>
                     </p>
-                    <p className='H-icons '>
+                    {/* <p className='H-icons '>
                       <i className="frame fab fa-aws"></i>
                       <h5 className="text-center">Amazon Web S.</h5>
-                    </p> 
+                    </p>  */}
                     <p className='H-icons'>
                       <i className="frame fab fa-sass"></i>
                       <h5 className="text-center">Sass</h5>
@@ -151,7 +152,16 @@ const NewHome  = () => {
   <hr/>
   <h4 className="text-center">PROJECTS</h4> 
     <div className='figure2'/>
-     <div className="Hobbies-icon">       
+     <div className="Hobbies-icon">   
+     <div className='container-card'>
+           <div className="card">
+              <img src={venecia} alt='/' />
+              <h6 className="mb-1 mt-2">Events Room Venecia Mexico City</h6>
+                      <div className="figure2"/>
+                      <p className="description-t " style={{fontSize:'12px'}}>MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass  & Sendgrid service. Hosting on Digital Ocean.</p>
+                        <a href="http://salonvenecia.com.mx" target='_blank' rel='noopener noreferrer'>Read more</a>
+            </div>
+        </div>    
      <div className='container-card'>
            <div className="card">
               <img src={lost} alt='/' />
