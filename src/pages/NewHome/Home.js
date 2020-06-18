@@ -120,10 +120,10 @@ const NewHome  = () => {
                       <i className="frame fab fa-digital-ocean ml-4"></i>
                       <h5 className="text-center">Digital Ocean</h5>
                     </p>
-                    {/* <p className='H-icons '>
+                    <p className='H-icons '>
                       <i className="frame fab fa-aws"></i>
                       <h5 className="text-center">Amazon Web S.</h5>
-                    </p>  */}
+                    </p> 
                     <p className='H-icons'>
                       <i className="frame fab fa-sass"></i>
                       <h5 className="text-center">Sass</h5>
