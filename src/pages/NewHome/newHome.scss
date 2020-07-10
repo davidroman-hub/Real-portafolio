@@ -325,12 +325,13 @@ color:$orange ;
 
 .Hobbies-icon {
 display: flex;
+justify-content: center;
 //flex-direction: row;
 
-// align-items: center;
+ //align-items: center;
 //   margin: 15px;
 //   margin-left: 70px ;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
 
  @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
 //     //flex-wrap: wrap; // <-- para acomodar los items en una lina o en varias (bajar iconos)
